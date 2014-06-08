@@ -8,30 +8,20 @@ def main():
     
     PMIDs = [s.strip() for s in open("pubmed_result_for_search_quote_neuroscience_unquote.txt").readlines()]
     
-    IDsIHaveAlready = touchopen("IDs_I_have_already.txt", "w+")
+    index = 180092
     
-    if IDsIHaveAlready.readlines():
-        LastID = IDsIHaveAlready.readlines()[-1].strip()
-        index = PMIDs.index(LastID)
-    else:
-        index = 0
-    
-    f = open("neuroscience_abstracts/abstracts_" + str(index/1000) + ".txt", 'w')
+    f = open("neuroscience_abstracts/abstracts_" + str(index/1000) + ".txt", 'a')    
     for i in range(len(PMIDs[index:])):
-        if i % 1000 == 0:
+        if (i + index) % 1000 == 0:
             f.close()
-            f = open("neuroscience_abstracts/abstracts_" + str(i/1000) + ".txt", 'w')    
-        pmid = PMIDs[i]
+            f = open("neuroscience_abstracts/abstracts_" + str((i+index)/1000) + ".txt", 'w')    
+        pmid = PMIDs[i+index]
         abstract = fetch_abstract(pmid).decode('ascii', 'ignore').strip()
+        print (i + index)
         print abstract
         print "\n"
         f.write(abstract)
         f.write("\n")
-        IDsIHaveAlready.write(pmid + "\n")
-            
-def touchopen(filename, *args, **kwargs):
-    open(filename, "a").close() # "touch" file
-    return open(filename, *args, **kwargs)            
 
 # From: http://stackoverflow.com/questions/17409107/obtaining-data-from-pubmed-using-python
 def print_abstract(pmid):

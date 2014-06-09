@@ -27,7 +27,8 @@ class abstractsCorpus(object):
     def __init__(self, indir):
         self.indir = indir
         self.dictionary = gensim.corpora.Dictionary(iter_documents(indir))
-        self.dictionary.filter_extremes(no_below = 1, keep_n = 30000) # check API docs for pruning params    
+        self.dictionary.filter_extremes(no_below = 1, keep_n = 30000) # check API docs for pruning params
+        self.dictionary.save('dict_abstracts_corpus_1.dict')
         
     def __iter__(self):
         print "Creating vector corpus from tokens..."

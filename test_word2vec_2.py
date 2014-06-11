@@ -12,8 +12,16 @@ def main():
     print "\nLoading Word2Vec model...\n"
     model = gensim.models.Word2Vec.load("word2vec_model_1")
     model.init_sims(replace=True)
-        
-    for s in ["glia"]:
+    
+    # test taking the difference of two vectors and finding a word similar to that difference
+    print "The difference between 'dopamine' and 'GABA' is:"
+    diff = model['dopamine'] - model['GABA']
+    dot_products = [np.dot(model[model.index2word[i]], diff) for i in range(len(model.index2word))]
+    closest_word = model.index2word[dot_products.index(max(dot_products))]
+    print closest_word
+    
+    # example of finding similar words to a given vector
+    for s in ["glia", "tetrode", "neuron", "cognitive", "animal", "GABA", "stimulation", "auditory", "binding"]:
         print "\nMost similar words to: %s \n" % s
         print model.most_similar(positive=[s])
         print "\n"

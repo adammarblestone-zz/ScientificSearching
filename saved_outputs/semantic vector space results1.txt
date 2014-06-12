@@ -1,0 +1,923 @@
+Functions: autocomplete text and search for similar words to the query word
+
+'''
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_3.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+prompt> dopamin
+dopamine                                  dopamine-containing                       dopamine-related
+dopamine's                                dopamine-deficient                        dopamine-releasing
+dopamine(D1)                              dopamine-denervated                       dopamine-replacement
+dopamine)                                 dopamine-dependent                        dopamine-replacing
+dopamine).                                dopamine-depleted                         dopamine-rich
+dopamine,                                 dopamine-depleting                        dopamine-sensitive
+dopamine-                                 dopamine-enhancing                        dopamine-serotonin
+dopamine-,                                dopamine-glutamate                        dopamine-stimulated
+dopamine--hydroxylase                     dopamine-immunoreactive                   dopamine-synthesizing
+dopamine-2                                dopamine-independent                      dopamine.
+dopamine-D1                               dopamine-induced                          dopamine;
+dopamine-D2                               dopamine-innervated                       dopaminergic
+dopamine-D2S                              dopamine-intact                           dopaminergic)
+dopamine-activating                       dopamine-lesioned                         dopaminergic,
+dopamine-beta-hydroxylase                 dopamine-like                             dopaminergic-like
+dopamine-beta-hydroxylase,                dopamine-mediated                         dopaminergic.
+dopamine-beta-hydroxylase-immunoreactive  dopamine-producing                        dopaminergically
+dopamine-beta-hydroxylase-positive        dopamine-receptor                         dopaminoceptive
+dopamine-beta-hydroxylase.                dopamine-regulated                        dopaminomimetic
+
+prompt> dopaminergic
+
+Similar words:
+______________
+serotonergic
+catecholaminergic
+non-da
+jcbnst
+(tida)
+midbrain
+(nsda)
+histaminergic
+dopaminergic
+mesostriatal
+cholinergic
+mesocorticolimbic
+non-dopaminergic
+orexinergic
+nigrostriatal
+mesocortical
+nigral
+noradrenergic
+mesotelencephalic
+serotoninergic
+nigro-striatal
+daergic
+mesolimbic
+(da)
+(da)-containing
+(daergic)
+monoaminergic
+'''
+
+Functions: Look for words similar to the difference vector between two user-specified words
+
+'''
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> dopamine
+
+Second word:> serotonin
+
+Words similar to the difference:
+______________
+6-OHDA
+6-hydroxydopamine
+MPTP
+6-hydroxydopamine-induced
+6-hydroxydopamine.
+quinolinate
+(6-OHDA)
+6-OHDA-induced
+(6-OHDA)-induced
+(6-OHDA),
+intrastriatal
+
+Words similar to `minus' the difference:
+______________
+serotonin-norepinephrine
+(SSRI),
+serotonin/noradrenaline
+(SSRI)
+sertraline.
+DA+NE
+Prozac
+(SSRI).
+(SSRIs),
+(SSRIs).
+(SRIs)
+
+
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> optical
+
+Second word:> electrical
+
+Words similar to the difference:
+______________
+computer-aided
+computer-assisted
+software.
+semiautomated
+cryo-electron
+STED
+deconvolution
+semi-automated
+Computer-assisted
+high-speed,
+intravital
+
+Words similar to `minus' the difference:
+______________
+electrical
+Electrical
+Repetitive
+(NMES)
+High-frequency
+high-frequency
+Tetanic
+(rTMS).
+Low-frequency
+single-pulse
+(GVS)
+
+
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> cognitive
+
+Second word:> behavioral
+
+Words similar to the difference:
+______________
+language
+linguistic
+comprehension
+phonological
+ToM
+language,
+semantic
+visuospatial
+speech
+reading
+metacognitive
+
+Words similar to `minus' the difference:
+______________
+fear-induced
+fear-conditioned
+shock-induced
+LiCl-induced
+pre-CS
+(open-field
+cocaine-seeking
+nocifensive
+novelty-induced
+defeat-induced
+morphine-induced
+
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> dopaminergic
+
+Second word:> monoaminergic
+
+Words similar to the difference:
+______________
+NSC34
+(pcd)
+MN9D
+(SH-SY5Y)
+SN4741
+NSC-34
+NTera2
+&quot;Purkinje
+C17.2
+B35
+N2a
+
+Words similar to `minus' the difference:
+______________
+neurotransmitters,
+neurotransmitters
+substances,
+transmitters,
+neurotransmitters.
+neuropeptides,
+monoamines,
+neuropeptides.
+xenobiotics
+monoamine,
+neurohormones
+'''
+
+Functions: Input a word X , find similar words Y_1 ... Y_N, then find words similar to the difference vectors (X-Y_i)
+
+'''
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_2.py 
+
+Loading Word2Vec model...
+
+
+Most similar words to: glia 
+
+[('glia,', 0.7913123965263367), ('glia-like', 0.7839636206626892), ('glia.', 0.7772002220153809), ('oligodendrocytes', 0.7636406421661377), ('astrocytes', 0.761223316192627), ('Mller', 0.7430467009544373), ('astroglia', 0.7196515202522278), ('oligodendrocytes,', 0.7192540168762207), ('O-2A', 0.7169361710548401), ('glial', 0.7006086111068726)]
+
+
+
+related word:
+glia,
+most similar vector to difference vector:
+bone/cartilage
+most similar vector to 'minus' the difference vector:
+(24)
+
+related word:
+glia-like
+most similar vector to difference vector:
+CP-AMPAR
+most similar vector to 'minus' the difference vector:
+Caudally,
+
+related word:
+glia.
+most similar vector to difference vector:
+Speakers
+most similar vector to 'minus' the difference vector:
+nonpeptidergic
+
+related word:
+oligodendrocytes
+most similar vector to difference vector:
+glia
+most similar vector to 'minus' the difference vector:
+phenocopy
+
+related word:
+astrocytes
+most similar vector to difference vector:
+brush
+most similar vector to 'minus' the difference vector:
+(SOD)
+
+related word:
+Mller
+most similar vector to difference vector:
+glia
+most similar vector to 'minus' the difference vector:
+R75
+
+related word:
+astroglia
+most similar vector to difference vector:
+&quot;pain&quot;
+most similar vector to 'minus' the difference vector:
+tripeptidyl
+
+related word:
+oligodendrocytes,
+most similar vector to difference vector:
+cooperation
+most similar vector to 'minus' the difference vector:
+IEM
+
+related word:
+O-2A
+most similar vector to difference vector:
+(MWM)
+most similar vector to 'minus' the difference vector:
+murine
+
+related word:
+glial
+most similar vector to difference vector:
+VZ/SVZ
+most similar vector to 'minus' the difference vector:
+acidic
+
+Most similar words to: tetrode 
+
+[('Microelectrode', 0.8176993131637573), ('multi-electrode', 0.7722635269165039), ('perforated-patch', 0.7659087777137756), ('multineuron', 0.7611751556396484), ('tight-seal', 0.7414952516555786), ('Perforated', 0.738186240196228), ('multielectrode', 0.7344107031822205), ('Patch-clamp', 0.7276666760444641), ('multi-barrel', 0.7256374359130859), ('microelectrode', 0.7235835790634155)]
+
+
+
+related word:
+Microelectrode
+most similar vector to difference vector:
+orbit
+most similar vector to 'minus' the difference vector:
+IP(3)Rs
+
+related word:
+multi-electrode
+most similar vector to difference vector:
+1DI
+most similar vector to 'minus' the difference vector:
+enriching
+
+related word:
+perforated-patch
+most similar vector to difference vector:
+map-like
+most similar vector to 'minus' the difference vector:
+downregulating
+
+related word:
+multineuron
+most similar vector to difference vector:
+callus
+most similar vector to 'minus' the difference vector:
+spontaneous
+
+related word:
+tight-seal
+most similar vector to difference vector:
+runs
+most similar vector to 'minus' the difference vector:
+l-type
+
+related word:
+Perforated
+most similar vector to difference vector:
+scene-selective
+most similar vector to 'minus' the difference vector:
+Androgen
+
+related word:
+multielectrode
+most similar vector to difference vector:
+18.4%
+most similar vector to 'minus' the difference vector:
+Nutritional
+
+related word:
+Patch-clamp
+most similar vector to difference vector:
+face),
+most similar vector to 'minus' the difference vector:
+ArA
+
+related word:
+multi-barrel
+most similar vector to difference vector:
+(V1),
+most similar vector to 'minus' the difference vector:
+ODNs,
+
+related word:
+microelectrode
+most similar vector to difference vector:
+one-quarter
+most similar vector to 'minus' the difference vector:
+liprin
+
+Most similar words to: neuron 
+
+[('interneuron', 0.6786971688270569), ('neurone', 0.6475558280944824), ('neurons.', 0.6372292637825012), ('neurons', 0.6089727282524109), ('neuronal', 0.6009641885757446), ('motoneuron', 0.5896936058998108), ('neurons,', 0.5674593448638916), ('cell', 0.5583524703979492), ('neurones', 0.546517550945282), ('(OSN)', 0.5429739356040955)]
+
+
+
+related word:
+interneuron
+most similar vector to difference vector:
+neuron
+most similar vector to 'minus' the difference vector:
+classes:
+
+related word:
+neurone
+most similar vector to difference vector:
+Cux2
+most similar vector to 'minus' the difference vector:
+&quot;screen
+
+related word:
+neurons.
+most similar vector to difference vector:
+Complexity
+most similar vector to 'minus' the difference vector:
+neurons.
+
+related word:
+neurons
+most similar vector to difference vector:
+neuron
+most similar vector to 'minus' the difference vector:
+neurons
+
+related word:
+neuronal
+most similar vector to difference vector:
+neurone
+most similar vector to 'minus' the difference vector:
+cellular
+
+related word:
+motoneuron
+most similar vector to difference vector:
+neurons.
+most similar vector to 'minus' the difference vector:
+(Vc/C2)
+
+related word:
+neurons,
+most similar vector to difference vector:
+neuron
+most similar vector to 'minus' the difference vector:
+neurons,
+
+related word:
+cell
+most similar vector to difference vector:
+(MND)
+most similar vector to 'minus' the difference vector:
+anti-neural
+
+related word:
+neurones
+most similar vector to difference vector:
+neuron
+most similar vector to 'minus' the difference vector:
+guinea-pigs
+
+related word:
+(OSN)
+most similar vector to difference vector:
+neuron
+most similar vector to 'minus' the difference vector:
+(OSN)
+
+Most similar words to: cognitive 
+
+[('neurocognitive', 0.8059817552566528), ('executive', 0.7938724756240845), ('cognition', 0.7190505862236023), ('neurobehavioral', 0.7161489725112915), ('visual-perceptual', 0.7097710371017456), ('visuoconstructive', 0.6975823044776917), ('language', 0.6974734663963318), ('(EF)', 0.6966795325279236), ('mnemonic', 0.6815937161445618), ('praxic', 0.6780844926834106)]
+
+
+
+related word:
+neurocognitive
+most similar vector to difference vector:
+nXIIts
+most similar vector to 'minus' the difference vector:
+Gilles
+
+related word:
+executive
+most similar vector to difference vector:
+neurological
+most similar vector to 'minus' the difference vector:
+dynamics:
+
+related word:
+cognition
+most similar vector to difference vector:
+neurologic
+most similar vector to 'minus' the difference vector:
+actions
+
+related word:
+neurobehavioral
+most similar vector to difference vector:
+visuospatial
+most similar vector to 'minus' the difference vector:
+chronic
+
+related word:
+visual-perceptual
+most similar vector to difference vector:
+cognitive
+most similar vector to 'minus' the difference vector:
+pre-school
+
+related word:
+visuoconstructive
+most similar vector to difference vector:
+nanotechnology
+most similar vector to 'minus' the difference vector:
+discrimination),
+
+related word:
+language
+most similar vector to difference vector:
+behavioral
+most similar vector to 'minus' the difference vector:
+spoken
+
+related word:
+(EF)
+most similar vector to difference vector:
+YM-298198
+most similar vector to 'minus' the difference vector:
+system)
+
+related word:
+mnemonic
+most similar vector to difference vector:
+neurologic
+most similar vector to 'minus' the difference vector:
+crosstalk.
+
+related word:
+praxic
+most similar vector to difference vector:
+postischaemic
+most similar vector to 'minus' the difference vector:
+Visual,
+
+Most similar words to: animal 
+
+[('experimental', 0.7786197662353516), ('rodent', 0.7657312154769897), ('preclinical', 0.7029155492782593), ('Animal', 0.6942142248153687), ('risk-return', 0.683253288269043), ('Rodent', 0.671377420425415), ('(EAE),', 0.6614186763763428), ('models', 0.6559032201766968), ('pre-clinical', 0.6508467793464661), ('syndrome-specific', 0.6454960703849792)]
+
+
+
+related word:
+experimental
+most similar vector to difference vector:
+rodents.
+most similar vector to 'minus' the difference vector:
+lighting
+
+related word:
+rodent
+most similar vector to difference vector:
+pharmacotherapy,
+most similar vector to 'minus' the difference vector:
+rat
+
+related word:
+preclinical
+most similar vector to difference vector:
+integrate-and-fire
+most similar vector to 'minus' the difference vector:
+Controlled
+
+related word:
+Animal
+most similar vector to difference vector:
+ageing-related
+most similar vector to 'minus' the difference vector:
+Ultrastructural
+
+related word:
+risk-return
+most similar vector to difference vector:
+Centella
+most similar vector to 'minus' the difference vector:
+intermodulation
+
+related word:
+Rodent
+most similar vector to difference vector:
+C31G
+most similar vector to 'minus' the difference vector:
+degenerating.
+
+related word:
+(EAE),
+most similar vector to difference vector:
+primates,
+most similar vector to 'minus' the difference vector:
+(LPC),
+
+related word:
+models
+most similar vector to difference vector:
+animal
+most similar vector to 'minus' the difference vector:
+models
+
+related word:
+pre-clinical
+most similar vector to difference vector:
+insulin-sensitive
+most similar vector to 'minus' the difference vector:
+assurance
+
+related word:
+syndrome-specific
+most similar vector to difference vector:
+animal
+most similar vector to 'minus' the difference vector:
+Occupational
+
+Most similar words to: GABA 
+
+[('glutamate', 0.8133676648139954), ('5-HT', 0.7448810935020447), ('transporter-mediated', 0.7411212921142578), ('(GLU)', 0.7398505806922913), ('nonvesicular', 0.7224687933921814), ('glycine', 0.715000331401825), ('(VGAT),', 0.7109699845314026), ('DA', 0.7041494846343994), ('ACh', 0.7021820545196533), ('transmitter', 0.6915141940116882)]
+
+
+
+related word:
+glutamate
+most similar vector to difference vector:
+SNr
+most similar vector to 'minus' the difference vector:
+(mGluRs)
+
+related word:
+5-HT
+most similar vector to difference vector:
+ATP-activated
+most similar vector to 'minus' the difference vector:
+fluoxetine
+
+related word:
+transporter-mediated
+most similar vector to difference vector:
+vocally
+most similar vector to 'minus' the difference vector:
+scavenging.
+
+related word:
+(GLU)
+most similar vector to difference vector:
+-fold
+most similar vector to 'minus' the difference vector:
+monosodium
+
+related word:
+nonvesicular
+most similar vector to difference vector:
+let-7d
+most similar vector to 'minus' the difference vector:
+WA.
+
+related word:
+glycine
+most similar vector to difference vector:
+DA
+most similar vector to 'minus' the difference vector:
+benzodiazepine
+
+related word:
+(VGAT),
+most similar vector to difference vector:
+FRs
+most similar vector to 'minus' the difference vector:
+R.A.,
+
+related word:
+DA
+most similar vector to difference vector:
+Glutamate,
+most similar vector to 'minus' the difference vector:
+nigrostriatal
+
+related word:
+ACh
+most similar vector to difference vector:
+(VGLUT2),
+most similar vector to 'minus' the difference vector:
+MK-801-induced
+
+related word:
+transmitter
+most similar vector to difference vector:
+hydrochloride]
+most similar vector to 'minus' the difference vector:
+CNS-mediated
+
+Most similar words to: stimulation 
+
+[('stimulation,', 0.8514536023139954), ('stimulation.', 0.8093579411506653), ('(TES)', 0.7590270638465881), ('(rTMS).', 0.7530627250671387), ('Stimulation', 0.731474757194519), ('Repetitive', 0.7255613803863525), ('single-pulse', 0.7203055620193481), ('(cTBS)', 0.7188066244125366), ('stimulations', 0.7158275246620178), ('transcranial', 0.7152718305587769)]
+
+
+
+related word:
+stimulation,
+most similar vector to difference vector:
+Stimulation
+most similar vector to 'minus' the difference vector:
+experience,
+
+related word:
+stimulation.
+most similar vector to difference vector:
+NP-9
+most similar vector to 'minus' the difference vector:
+cues.
+
+related word:
+(TES)
+most similar vector to difference vector:
+activation
+most similar vector to 'minus' the difference vector:
+multineuronal
+
+related word:
+(rTMS).
+most similar vector to difference vector:
+activation
+most similar vector to 'minus' the difference vector:
+(DWI).
+
+related word:
+Stimulation
+most similar vector to difference vector:
+stimulation,
+most similar vector to 'minus' the difference vector:
+Generation
+
+related word:
+Repetitive
+most similar vector to difference vector:
+activation
+most similar vector to 'minus' the difference vector:
+(within
+
+related word:
+single-pulse
+most similar vector to difference vector:
+activation.
+most similar vector to 'minus' the difference vector:
+three-dimensional
+
+related word:
+(cTBS)
+most similar vector to difference vector:
+Involvement
+most similar vector to 'minus' the difference vector:
+dry-land
+
+related word:
+stimulations
+most similar vector to difference vector:
+targeting
+most similar vector to 'minus' the difference vector:
+Dams
+
+related word:
+transcranial
+most similar vector to difference vector:
+CeA
+most similar vector to 'minus' the difference vector:
+susceptibility-weighted
+
+Most similar words to: auditory 
+
+[('visual', 0.8763110637664795), ('somatosensory', 0.8130342960357666), ('nonvisual', 0.7561075091362), ('unimodal', 0.7371476292610168), ('(auditory', 0.7286599278450012), ('audiovisual', 0.7282261252403259), ('sensory', 0.7258042693138123), ('(V1)', 0.719983696937561), ('sensory-specific', 0.7118753790855408), ('parafoveal', 0.7116047143936157)]
+
+
+
+related word:
+visual
+most similar vector to difference vector:
+vagal
+most similar vector to 'minus' the difference vector:
+straight
+
+related word:
+somatosensory
+most similar vector to difference vector:
+configural
+most similar vector to 'minus' the difference vector:
+(MCC)
+
+related word:
+nonvisual
+most similar vector to difference vector:
+somatosensory
+most similar vector to 'minus' the difference vector:
+distort
+
+related word:
+unimodal
+most similar vector to difference vector:
+tPA/PAI-1
+most similar vector to 'minus' the difference vector:
+DRS,
+
+related word:
+(auditory
+most similar vector to difference vector:
+NSTc
+most similar vector to 'minus' the difference vector:
+fake
+
+related word:
+audiovisual
+most similar vector to difference vector:
+(S1).
+most similar vector to 'minus' the difference vector:
+Libet
+
+related word:
+sensory
+most similar vector to difference vector:
+(FEF),
+most similar vector to 'minus' the difference vector:
+cord-projecting
+
+related word:
+(V1)
+most similar vector to difference vector:
+emotional
+most similar vector to 'minus' the difference vector:
+tau-GFP
+
+related word:
+sensory-specific
+most similar vector to difference vector:
+ODI
+most similar vector to 'minus' the difference vector:
+Cell-cell
+
+related word:
+parafoveal
+most similar vector to difference vector:
+micro-RNA
+most similar vector to 'minus' the difference vector:
+approximating
+
+Most similar words to: binding 
+
+[('binding.', 0.7184378504753113), ('binding,', 0.7095891237258911), ('Binding', 0.6875054836273193), ('Sp1', 0.6863014101982117), ('AP2', 0.6810964941978455), ('ligand', 0.6736636161804199), ('actin.', 0.6694324016571045), ('C/EBP', 0.6688393950462341), ('corepressor', 0.6655303239822388), ('high-affinity', 0.6612808108329773)]
+
+
+
+related word:
+binding.
+most similar vector to difference vector:
+PLB1
+most similar vector to 'minus' the difference vector:
+(to
+
+related word:
+binding,
+most similar vector to difference vector:
+promoter/enhancer
+most similar vector to 'minus' the difference vector:
+supersensitivity,
+
+related word:
+Binding
+most similar vector to difference vector:
+Ci2
+most similar vector to 'minus' the difference vector:
+Proportions
+
+related word:
+Sp1
+most similar vector to difference vector:
+binding.
+most similar vector to 'minus' the difference vector:
+Xlens1
+
+related word:
+AP2
+most similar vector to difference vector:
+binding
+most similar vector to 'minus' the difference vector:
+D(2)Rs
+
+related word:
+ligand
+most similar vector to difference vector:
+binding
+most similar vector to 'minus' the difference vector:
+ligand
+
+related word:
+actin.
+most similar vector to difference vector:
+occupancy
+most similar vector to 'minus' the difference vector:
+calibre.
+
+related word:
+C/EBP
+most similar vector to difference vector:
+binding
+most similar vector to 'minus' the difference vector:
+cyclooxygenase-2,
+
+related word:
+corepressor
+most similar vector to difference vector:
+occupancy
+most similar vector to 'minus' the difference vector:
+heme-containing
+
+related word:
+high-affinity
+most similar vector to difference vector:
+chromatin.
+most similar vector to 'minus' the difference vector:
+high-affinity
+'''

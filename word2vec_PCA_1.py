@@ -42,7 +42,7 @@ def main():
     print "Plotting PCA results..."
     fig = plt.figure()
     ax = fig.add_subplot(111, projection = '3d')
-    ax.set_title("Principle Components of Word Vectors")
+    ax.set_title("Principal Components of Word Vectors")
     
     import itertools
     marker = itertools.cycle(['o', '^', '*', "s", "h", "8"])

@@ -28,7 +28,7 @@ def main():
     for v in vocab:
         fullVectorStr = "".join(["    " + str(model[v][j]) for j in range(len(model[v]))])
         outfile1.write(fullVectorStr + "\n")
-        outfile2.write(str(1.0) + "\n")
+        outfile2.write(v + "\n")
     outfile1.close()
     outfile2.close()
             

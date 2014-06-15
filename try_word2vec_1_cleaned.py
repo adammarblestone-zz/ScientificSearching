@@ -18,8 +18,10 @@ def cleanDoc(doc):
     clean = [token.lower() for token in tokens if token.lower() not in stopset and len(token) > 2]
     #final = [stemmer.stem(word) for word in clean]
     final = [word for word in clean]
-    final_str = "".join([f[i] + " " for i in range(len(final)-1)]) + final[len(final) - 1]
-    #print final_str
+    if final != []:
+        final_str = "".join([final[i] + " " for i in range(len(final)-1)]) + final[len(final) - 1]
+    else:
+        final_str = ""
     return final_str
 
 def main():

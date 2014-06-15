@@ -1,0 +1,112 @@
+
+Second word:> optical
+
+Words similar to the difference:
+______________
+electrical
+transcutaneous
+stimulation
+tes
+acupoint
+tsdc
+nmes
+stimulations
+antidromic
+rdvii
+tces
+
+Words similar to `minus' the difference:
+______________
+brightfield
+clsm
+lscm
+multiphoton
+nomarski
+2plsm
+epifluorescence
+tem
+confocal
+cryo
+microscopy
+
+
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> dopamine
+
+Second word:> serotonin
+
+Words similar to the difference:
+______________
+nigral
+nigrostriatal
+dopaminergic
+nigro
+striatal
+daergic
+dopamine
+mesostriatal
+striatonigral
+melanized
+hydroxydopamine
+
+Words similar to `minus' the difference:
+______________
+ssris
+ssri
+snris
+tcas
+antidepressants
+snri
+reuptake
+sris
+venlafaxine
+fluvoxamine
+maois
+
+
+Adam-Marblestones-MacBook-Pro:ScientificSearching adammarblestone$ python test_word2vec_4.py 
+
+Loading Word2Vec model...
+
+
+Press <tab> twice to see all your autocomplete options.
+_______________________________________________________
+
+First word:> cognitive
+
+Second word:> behavioral
+
+Words similar to the difference:
+______________
+cognitive
+executive
+neurocognitive
+cognition
+visuoconstructional
+neurocognition
+abilities
+flexibility
+socioemotional
+sociocommunicative
+tom
+
+Words similar to `minus' the difference:
+______________
+neuroadaptative
+sensitisation
+neuroadaptive
+neuroadaptations
+sensitization
+neuroadaptation
+psychostimulants
+gstpi
+counteradaptation
+psychostimulant
+nvhls

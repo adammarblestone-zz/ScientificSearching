@@ -16,14 +16,14 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def main():
     print "\nLoading Word2Vec model...\n"
-    model = gensim.models.Word2Vec.load("word2vec_model_1")
+    model = gensim.models.Word2Vec.load("word2vec_model_1_cleaned")
     model.init_sims(replace=True)
     vocab = model.index2word
     print "Vector length: " + str(len(model[vocab[0]]))
     
     print "\nWriting data to file..."
-    outfile1 = open("saved_outputs/word_vector_mapping_1_justvec.txt", 'w')
-    outfile2 = open("saved_outputs/word_vector_mapping_1_labels.txt", 'w')
+    outfile1 = open("saved_outputs/word_vector_mapping_1_cleaned_justvec.txt", 'w')
+    outfile2 = open("saved_outputs/word_vector_mapping_1_cleaned_labels.txt", 'w')
     
     for v in vocab:
         fullVectorStr = "".join(["    " + str(model[v][j]) for j in range(len(model[v]))])

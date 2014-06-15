@@ -12,7 +12,7 @@ import logging
 
 def main():
     print "\nLoading Word2Vec model...\n"
-    model = gensim.models.Word2Vec.load("word2vec_model_1")
+    model = gensim.models.Word2Vec.load("word2vec_model_1_cleaned")
     model.init_sims(replace=True)
     
     import readline

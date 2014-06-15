@@ -16,7 +16,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def main():
     print "\nLoading Word2Vec model...\n"
-    model = gensim.models.Word2Vec.load("word2vec_model_1")
+    model = gensim.models.Word2Vec.load("word2vec_model_1_cleaned")
     model.init_sims(replace=True)
 
     vocab = model.index2word
@@ -26,7 +26,9 @@ def main():
     print "Running PCA..."
     pca_results = PCA(data_matrix)
     
-    seed_word_list = ["dopamine", "GABA", "serotonin", "5-HT", "acetylcholine" , "glutamate","electrode", "stimulator", "cognitive", "behavioral", "ethological", "genetic", "biochemical", "channel", "concentration", "dynamics", "receptor", "antibody", "fMRI", "calcium", "nucleus", "axon", "soma", "dendrite", "synapse", "fNIRS", "EEG"]
+    seed_word_list = ["dopamine", "GABA", "serotonin", "5HT", "acetylcholine" , "glutamate","electrode", "stimulator", "cognitive", "behavioral", "ethological", "genetic", "biochemical", "channel", "concentration", "dynamics", "receptor", "antibody", "fMRI", "calcium", "nucleus", "axon", "soma", "dendrite", "synapse", "fNIRS", "EEG"]
+    
+    seed_word_list = [s.lower() for s in seed_word_list]
     
     classes = [[] for s in seed_word_list]
     for i in range(len(seed_word_list)):

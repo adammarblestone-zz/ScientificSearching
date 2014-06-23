@@ -6,7 +6,7 @@
 
 ;; To run, execute the following command in bash after making appropriate directory substitutions:
 
-;; nohup /Applications/Racket/bin/racket -f /Users/tld/Drive/code/scheme/zinn/scratcher.scm > NOHUP.out 2> NOHUP.err < /dev/null &
+;; nohup /Applications/Racket/bin/racket -f /Users/adammarblestone/Desktop/ScientificSearching/scratcher.scm > NOHUP.out 2> NOHUP.err < /dev/null &
 
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -19,6 +19,8 @@
 ;;       We'll likely need more than Freebase and Wikipedia to get comprehensive coverage.
 
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#lang racket
 
 (require racket/block)   ;;; Substitute for the obscure PROGN block of ancient lisp dialects.
 
@@ -48,7 +50,7 @@
 
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(define dataset-directory "/u/tld/Desktop/PubMed/")
+(define dataset-directory "/users/adammarblestone/Desktop/PubMed/")
 
 ;;; Here is the directory structure for the PubMed dataset assumed in the following scripts:
 

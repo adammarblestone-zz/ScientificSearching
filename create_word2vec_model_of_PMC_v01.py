@@ -29,7 +29,7 @@ def main():
     print "Setting up access to all the sentences..."
     allTheSentences = SentenceList(indir)
     print "Making Word2Vec model..."
-    model = gensim.models.Word2Vec(allTheSentences)
+    model = gensim.models.Word2Vec(allTheSentences, workers = 4, size = 200)
     print "Saving Word2Vec model..."
     model.save("../create_word2vec_model_of_PMC_v01_output01")
 

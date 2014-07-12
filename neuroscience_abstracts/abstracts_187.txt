@@ -1,0 +1,1000 @@
+
+
+
+
+
+The paper defines the discovery made by I. M. Sechenov in 1863, of inhibition of spinal reflexes in a frog produced by stimulation of the thalami optici with a crystal of NaCl -- first finding revealing inhibition in the central nervous system. The question is discussed, what parts of the nervous system participate in this inhibition and, in particular, along what pathways the excitation is transmitted from thalami optici to the spinal cord. According to I. M. Sechenov this pathway is the sympathetic nervous system, which is confirmed by numerous studies. P. G. Kostyuk (1969) describes this inhibition as presynaptic. However there are reasons to assume the participation of the sympathetic nervous system in the presynaptic inhibition as well.
+
+
+
+
+A rapid, inexpensive method is described for achieving accurate reproduction of histological sections. The method uses a microfiche reader-printer (for library use) which produces A4 size prints. Interchangeable lenses on the microfiche printer permit the magnification of the section to be varied over the range 6.6-72 times. Where large numbers of sections are involved the speed and low cost of the method offers considerable advantages over traditional hand tracing or photomicrography.
+We describe the design and unique features of a system for precisely regulating body temperature of anesthetized and/or immobilized small mammals during prolonged neurophysiological experiments. The system uses a flexible, insulated, charcoal cloth conducting blanket which can be intimately wrapped around the animal's body. The temperature of the blanket is continuously regulated by an electronic system which compares the animal's actual temperature with the desired temperature. The system can react to differences of 0.1 to 0.001 degrees C and introduces no recording artifacts. With modification the system may have clinical application.
+A circuit design is described for an electronic device which is gate controlled to rapidly switch electrode connections between a stimulator and an amplifier. An integrated switch in the circuit is operated by transistor-transistor logic pulses and will conduct analog signals of up to 15 V amplitude. Electrographic records made using the switch show multi-unit spike discharge after repetitive stimulation of the amygdala in the kindled rat.
+An inexpensive design using minimal components is generally described. A choice is provided for the behaving animal between 2 primary channels that are disabled once the choice is made. A third channel acts as the reset and must be activated after each choice is made of the primary channels. Each channel is capable of providing independent control over pulse train duration, frequency and voltage. The reset channel may be electrically silent if desired. An innovative use is made of high output impedance solid state analog switches to isolate the outputs of the 3 channels as they are connected together to the single ICS electrode.
+An adaptation of a tissue slice chamber is described that stabilizes brain slices during rapid perfusion. Comparison experiments show no deleterious effects of fast perfusion on field potential responses in hippocampal slices, and baseline responses appear to stabilize more quickly with the described modification.
+Methods, materials and procedures for producing viable hypothalamic slices are described in detail. Also described are the results of methodological experiments dealing with combatting the problem of evaporative water loss which produces subsequent increases in concentration of the bathing medium. A formula is given by which the amounts of evaporative loss may be calculated and compensated for without direct measurement of the medium osmotic pressure. Finally, ultrastructural data are presented which indicate that paraventricular nucleus neurosecretory cells in the slices undergo a loss of dense core vesicles during the initial 3 hr in vitro, then recover by 5 hr and maintain a relatively constant state for up to 9 hr, the longest time sampled.
+
+
+1. The soma membrane of cat spinal motoneurones was voltage clamped using separate intracellular voltage and current electrodes directed into the same motoneurone with a new guide system. 2. Antidromic stimulation of the motoneurone's axon or small depolarizing voltage clamp steps (10-20 mV from the resting potential) evoked a small (30-80 nA) all-or-none action potential current, which was shown by occlusion experiments to originate from the initial segment of the axon. Except for this axonal current spike, there was no indication of active (voltage-dependent) conductance changes in membrane regions not under good voltage clamp control. Calculations based on motoneuronal geometry, and electrophysiological recordings from spinal cord neurones in tissue culture, indicate that the proximal portions of dendritic membranes were also under good voltage clamp control. 3. Clamp depolarizations greater than 20 mV activated a fast, transient inward current, which increased in a smoothly graded manner with depolarization between 20 and 40 mV from the resting potential, reaching a peak magnitude of up to 450 nA, and then decreased smoothly for larger depolarizations. Extrapolation of the current-voltage relationship for this current indicated a reversal potential about 80-116 mV positive to the resting potential. 4. This transient inward current is blocked by tetrodotoxin. After a depolarizing voltage clamp step the conductance system controlling this current first activates with fast, non-linear kinetics, and then inactivates with first-order kinetics. These properties are similar to those of the Na conductance system in squid and frog axons. 5. Conditioning-testing experiments showed that the time constant of inactivation ranges from 1.0-1.3 msec at potentials slightly negative to the resting potential to 0.1-0.3 msec for depolarizations 60 mV from the resting potential. The degree of steady-state inactivation also varied with membrane potential, ranging from total inactivation at depolarizations greater than 30 mV from the resting potential, to minimal inactivation at potentials more than 10 mV negative to the resting potential.
+
+The author points out that organic mental disorders have been neglected for the past 30 years and that the classification of these disorders is obsolete. On the basis of the new explicit criteria formulated in DSM-III, the growing recognition that organic disorders constitute a major public health problem, the advances made in the neurosciences, and the current focus on chronic diseases and critical care medicine, however, he predicts an increase in interest in organic mental disorders in the coming years. He outlines the new classification system, suggesting that it should stimulate research and thus lead to sorely needed therapeutic advances.
+
+Many experimental designs in the behavioral sciences and neurosciences yield for each subject a response curve defined by number of correlated measurements. The common parametric and nonparametric statistical tests assume independent measurements and cannot be used in this context. After reviewing contemporary approaches to this problem, procedures for the cases of two independent samples and two matched samples of response curves are proposed. Each curve is approximated by an orthogonal polynomial. In the case of two independent samples the polynomial coefficients are compared by a multivariate median test while in the case of matched samples a multivariate sign test is used. The methods are illustrated by real data sets.
+
+
+The history of deterministic theories in physics is reviewed, and four levels of determinism are found: 1) absolute, 2) asymptotic, 3) probabilistic, and 4) absolute indeterminism. Nagel's view that all causal laws are deterministic in the frame of the state descriptions to which they refer is acknowledged, but the inevitability of macroscopic measurement noise may hint that dynamical laws are innately noisy. Quantum mechanical effects are not the noise source. Symmetry and broken symmetry are introduced as physical concepts that can account both for lawfulness, and for the hierarchical nature of the universe. Physical ideas are chosen over those of formal systems with indirect self-reference as the basis of a global theory of brains. By exclusion it is concluded that only a statistical thermodynamics, combined with nonlinear mechanics, has the features needed for theorizing about brains in a physical sense. Quantum mechanics is judged not to be relevant. New statistical thermodynamic theories are briefly described, and their strengths and weaknesses noted. The question, &quot;Why should neuroscience look to physics for its theories?&quot; is raised and answered. Some concrete objectives for a program of theoretical research are stated.
+During July, 1979, the authors visited the neurological and neurosurgical services of eight major hospitals and associated medical schools in Peking, Tientsin, and Shanghai, and viewed many of their teaching and research facilities. From these visits and our discussions with the staffs of these units, we came away with the impressions reported here. In the People's Republic of China today there are more than 2,000 neurologists and 1,300 neurosurgeons. At present there are two major clinical centers: the Peking Institute of Neurosurgery, directed by Prof Wang Chung-Cheng and located in the Xuan Wu Hospital affiliated with the Peking First Medical College; and the Shanghai Institute of Neurology, directed by Prof Chang Yuan-Cheng and located in the Hua San Hospital affiliated with the Shanghai First Medical College. In every hospital, patient loads are formidable (e.g., several thousand outpatients weekly), but the variety of clinical problems does not differ from those seen elsewhere in the world. The most common problems are head injuries, brain tumors, cerebrovascular disorders, infections, and epilepsy. Each of the centers is heavily engaged in undergraduate and postgraduate training, and research has been resumed after the major disruptions of the 1966-76 &quot;Cultural Revolution.&quot; Research continues on acupuncture, but present emphasis is directed toward pain mechanisms, notably at the Shanghai Institute of Physiology, directed by Prof Feng De-Pei. We were most impressed by this, the principal neurophysiology and neuroscience research center in the country. Clearly, the People's Republic of China has a wealth of clinical material and many competent neurologists and neurosurgeons with stimulating research ideas-characteristics which offer real potentials for collaborative research.
+We have discovered and describe herein a cybernetic coding principle that appears to operate independently of variability. The coding is in the time domain, stated in terms of the relative duration of successive intervals between discrete events (pulses, action potentials, etc.). A variety of high-order relations can be described, quantified, and evaluated statistically.
+
+
+A method is described for non-destructive transmissive mode viewing of micropipette electrodes on an electron microscope by modifying the series 100 stage of a Cambridge S4 scanning electron microscope. The modified stage allows electrode rotation and movement in both the X and Y directions without altering the external controls of the electron microscope. We have used this technique to select dry beveled electrodes. The technique allows precise determination of optimal micropipette electrode tip size and shape for a specific purpose.
+Beveling or otherwise modifying the tips of micropipettes has been found to improve their performance. Although some success has been reported, especially with wet beveling methods, problems and uncertainties are significant. In this paper we describe both manual and automated dry beveling systems which use a bevel table and bevel plate similar to those in wet beveling schemes. However, instead of using electrode impedance changes as a guide to the shape and size of electrode tips, we monitor beveling with a piezoelectric crystal which detects the minute vibrations of the electrode as the tip scrapes the bevel plate. The filtered output of the crystal indicates the progress of the grinding operation and allows the process to be controlled. Precise control of electrode tip movement is accomplished through use of a Kopf model 607B motorized hydraulic microdrive, amenable to both automated and manual control. The whole process can be followed by non-destructive electron microscope (E.M.) examination of electrode tips. Dry beveling combined with E.M. examination of electrode tips allows a much more precise determination of optimal electrode tip size and shape than is at present possible with wet beveling.
+Following injection of horseradish peroxidase (HRP) either into the jejunal wall or the peritoneal cavity, neurons in the dorsal motor nucleus of the vagus nerve, celiac, nodose and spinal ganglia, and ventral and lateral horns of the spinal cord from the mid-thoracic to lumbar segments were labeled. When HRP was injected into the wall of the exteriorized gut, neurons of the spinal cord were not labeled. Furthermore, there was a significant decrease in the number of labeled neurons in the dorsal motor nucleus and ganglia examined. These results indicate that HRP injected into the intestinal wall could leak into the peritoneal cavity and be taken up and transported to neuronal cell bodies by nerve fibers not terminating in the injection area. The leakage of HRP to nearby abdominal structures and its subsequent uptake by nerve fibers is attributed to the lack of a diffusion barrier across the surfaces of the intestinal wall and the abdominal structures. It is suggested that in applying the HRP techniques for the study of neuronal connections in the peripheral nervous system, it is essential that carefully pla-ned control experiments be undertaken which can overcome the problem of mislabeling due to diffusion from the injection site.
+Previously, it has been difficult to label sensory terminations in the CNS by back-filling peripheral sensory nerves with horseradish peroxidase (HRP), apparently because the amount of HRP transported along the axons is insufficient. Labeling of central sensory projections in axolotls and frogs can be improved by agents known to disrupt membranes. Of those tested, L-alpha-lysophosphatidyl choline is the most effective. The addition of this detergent ot the HRP solution dramatically increases both the number of axons labeled and the density of label within single axons.
+A technique for the derivation of digitally-averaged multiple unit activity (MUA) is described. The use of signal averaging instead of analog integration improves the temporal resolution and thus provides a clearer picture of the instantaneous MUA level. MUA recordings have been used in the identification of regions active in the generation of event-related potentials, based in part on the limited volume within which a semi-microelectrode 'sees' action potentials. However, averaged MUA waveforms may be affected by time-locked activity volume-conducted to the electrode site. A theoretical analysis of the magnitude of this effect is presented, along with experimental data in support of its assumptions and predictions. The most important factor is not the absolute size of the volume-conducted potentials, but their magnitude relative to that of the locally-generated MUA. When full-wave rectification is used, volume-conducted activity which is a considerable fraction of the MUA level will not significantly affect the averaged MUA waveform. Half-wave rectification should not be used, as it leads to a much larger effect from small far-field potentials.
+
+Transganglionic transport of horseradish peroxidase (HRP) was greatly improved by conjugating the enzyme with wheat germ agglutinin (WGA) as described by Gonatas et al. [7]. Intense dorsal horn projections from muscle groups and even discrete skin patches were labeled after peripheral injection of the HRP-WGA conjugate. These projections could not be consistently demonstrated when HRP was injected either alone or in combination with DMSO. Conjugation with WGA thus enhances the uptake and/or transport of HRP and constitutes a valuable advance in HRP technique.
+
+
+
+
+
+
+
+
+
+
+
+A method for obtaining intracellular recordings from central neurons of insects during the performance of ecdysial behaviors is described. Body wall turgor must be restored to high levels in order to provide the CNS with appropriate sensory feedback required for the generation of motor output. This is accomplished by installing the insect in a decompression chamber so that an opening in the animal's ventral surface communicates with the atmosphere. Reduction of chamber pressure causes expansion of the insect's body wall. It is suggested that adaptations of this technique to invertebrates with hydrostatic skeletons is possible and would permit electrophysiological studies of behaviors which normally require high blood pressures for their performance.
+Neuroanatomical laboratory material was presented to first-year medical students in a series of six self-instructional stations. Each station was designed to emphasize one major objective and to be completed without reference to any other station. Upon completion of a station the students filled out a response questionnaire. Five weeks later, short examinations testing both station content and application of the neuroanatomical principles were administered to volunteers from the class. Student response to this teaching format was highly favourable for all areas questioned. Results of the tests indicated a mastery of station material as defined by the objectives and an ability to use the material in applied problems. The laboratory station concept is economical of both student and instructor time and allows flexibility in the design of neuroanatomical laboratory experiences.
+
+
+
+This paper describes a direct on-line electronic method for determination of the quadrupedal footfall patterns of animals during locomotion. This technique involves the application of a 30 kHz AC carrier signal to a conductive treadmill belt. The time of contact of each paw on the belt is determined by recording the increased conduction of these carrier signals from the treadmill surface through the footpads to monopolar electrodes implanted in each limb. Since the carrier signal frequency is very high, filters may be employed to electronically separate this signal from electromyographic signals simultaneously obtained through the same electrodes. In comparison with the cinematographic methods typically used for analysis of footfall patterns, this technique is less time consuming, is just as accurate and also yields signals which can be used for on-line triggering applications.
+The detailed schematic diagrams and construction techniques are presented for a single microelectrode voltage clamp. The devices is used to study the membrane processes of small cells not able to be penetrated with the traditional two microelectrode system. The technique utilizes the same microelectrode alternately for current injection and membrane potential sampling on a time-sharing basis controlled by electronic switching circuitry. Current is injected in pulses and the membrane potential is sampled after an individual current pulse discharges from the microelectrode capacitance to the true membrane potential. The device can either measure the voltage response to an injected current waveform (current injection mode) or the membrane currents generated during a controlled change in membrane potential (voltage clamp mode). In voltage clamp mode, the membrane potential reaches steady-state within 2 msec (maximum time) in response to a 40 mV step command. The single electrode voltage clamp is potentially very important to the investigation of slow current processes within electrically excitable cells too small to be previously studied with traditional voltage clamp technology.
+
+Dissociated cell cultures of neurons from neonatal rat superior cervical ganglia have been grown in specially prepared dishes, the bottoms of which consist of glass coverslips on which thin-film microcircuits have been deposited. The microcircuit provides 32 microelectrodes per dish, each approximately 8 X 10 micrometer in area. Extracellular recordings of action potentials from individual neurons have been made, with good signal-to-noise ratios, for cells within 40 micrometer of the electrode centers. The microelectrodes are also suitable for passing the current required for extracellular stimulation and action potentials have been evoked by stimulating cell bodies and processes through the electrodes.
+
+A method of one-channel recording of a number of on-off type events is presented. Characteristic for this method is a division of recorded parameters into two groups, which permits to reduce the number of discrimination levels. A schematic diagram and an example of application of the method are given.
+Neuropsychology is a new discipline placed between neurosciences (neurophysiology, neurochemistry, comparative neuroanatomy) and psychology (experimental psychology. psycholinguistics, linguistics). History of neuropsychology shows, during last and the beginning of the present centuries, a marked trend to localization and association (one center for each function, followed later by a period where globalistic trends predominate, according to which a localized lesion is important mostly because of the modification it produces in the functions of brain as a whole. During the last 30 years, the development of anatomoclinical methods and experimental neuropsychology have again given impulse to a neoassociational trend. By their importance, recent advances in the following topics are underlined: (1) The study of behaviour, particularly regarding the role of neurotransmitters. (2) The concept of &quot;hemispheric specialization&quot; in substitution of &quot;hemispheric dominance&quot;. (3) The mechanisms of functional reestablishment in the central nervous system. (4) The role of genetic background and experience in the development of functions of the central nervous system.
+
+
+A new technique of anatomical study of cardiac nerves in man is described, and the results of the investigation are reported and discussed. Sections of the heart, 10 micron in thickness, stained with a modification of Masson's trichrome technique, and surrounded by at least 3 nerves fibres as a marker were projected by an ordinary photographic enlarger, and drawn on a polythene foam termoplastic material. The scale drawings were cut and put together to form a scale model of the heart studied in the peripulmonary tissue and between the aorta and the pulmonary artery. The advantages and the limits of this technique are then discussed.
+
+
+In a two-stage procedure the pseudosynovial sheath, formed around a silicone rubber rod placed in the back of rats, was used as a free &quot;tube-graft&quot; to bridge freshly cut gaps of 12 mm length in the sciatic nerve. The tube was kept open by a thin metal spiral, originally implanted around the silicone rubber rod. In this model the regenerating nerve fibers grew into an &quot;open&quot; space formed inside the pseudosynovial tube. The tissue formed in the tube was analyzed after 3 months by light and electron microscopy. Within the tube a new nerve trunk was formed, comprising closely packed myelinated and nonmyelinated fibers organized in fascilcles. The fascicles were surrounded by regenerated perineurim, and the new nerve was surrounded by an epineurium-like sheath. An electromyogram recorded from the flexor muscles of the foot confirmed motor reinnervation. The findings are discussed in view of current concepts of nerve regeneration.
+
+
+
+The present communication gives diagrams used for the construction of an instantaneous frequency meter which includes digital counters for measuring the time interval between two action potentials. This interval is then converted into a tension, and the reciprocal is obtained by an analogic process. Instantaneous frequencies measured by this device can be displayed either on an oscilloscope screen or directly on paper through a pen recorder.
+While resting, Fischer-344 rats underwent a decrease in heart rate and an increase in diastolic blood pressure and plasma norepinephrine with increasing age. The blood pressure of adult rats increased significantly during a 3 minute immobilization. The blood pressure of old rats failed to increase during stress, decreased to below control level immediately following the termination of stress and they died within 24 hours. Three minutes of stress failed to increase the heart rate of old rats while 30 min of stress produced a small increase in the heart rate, approximately sol1 3 to sol1 2 of the increase seen in younger rats. The old rats showed no decrease in the maximal adrenergic medullary or cortical responses to stress, but they had a prominent 3 min delay in the maximal peak of norepinephrine release. The 30 minute stress caused a greater increase in plasma epinephrine in old rats than in adult rats while it initiated a decrease in beta-adrenergic responses such as heart rate and plasma glucose. The present results indicate that old rats lose their ability to cope with acute stress due to decreased adrenergic responsiveness and increased &quot;shock&quot; reaction.
+Age differences in rotational behavior were examined in young (6 mo) and old (24 mo) Wistar rats lesioned in the left substantia nigra with 6-OHDA. Young animals showed a 50% increase in rotational behavior with L-DOPA pretreatment and a 15-20% increase following L-tyrosine pretreatment. However, neither L-DOPA nor L-tyrosine pretreatment potentiated amphetamine-induced rotational behavior of senescent animals. Pretreatment with tranylcypromine, an MAO inhibitor, did not enhance rotational behavior in either group. After assessing rotational responses to amphetamine, half of each age group was given L-DOPA 1 hr prior to sacrifice, and right (RS) and left striatal (LS) levels of dopamine (DA) were examined in all groups. Comparable LS depletion was found in both age groups. L-DOPA significantly raised DA levels in the RS of the young animals while causing no change effect in old animals although the amount of L-DOPA entering the striatum was even higher in the senescent animals. Striatal tyrosine hydroxylase showed only a small decrease (15%) in activity, while DOPA decarboxylase activity showed no significant age-related decline. Despite the lack of substantial decrease in enzyme activity, the results indicate an age-dependent decrease in the capacity for L-DOPA potentiation of rotational behavior. Defects may exist at the level of elevation of the functional pool of DA, the release of DA, or the interaction of DA with a decreasing number of a class of DA receptors involved in motor control.
+The visual system of primitive vertebrates has long served as a useful model for the resynthesis of damaged neurons. The prior optic nerve crush imparts a marked tendency on the part of cultured retinal explants to extend neurites. Neurites grown in culture from retinal ganglion cells of the explant have been characterized by lectin-binding and immunohistochemical techniques. Biochemical studies on the retina following optic nerve crush reveal altered RNA and protein metabolism. Results indicate that tubulin mRNA is activated and that new tubulin synthesis is enhanced following the crush. An early and dramatic increase in the rate of nucleotide phosphokinase activity is also seen. The retinal tissue culture data, together with in vivo studies in normal and newly regrown nerve give additional insight into the nature of the regenerative process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It would be unrealistic to try to turn psychiatry in all its aspects into an exact science. It is realistic to accept that it also deals with non-measurable phenomena; this we should always remember, so as to remain doctors and to preserve what is personal, warm and humane in our work. It is unrealistic to believe that the neurosciences are beginning today to explain all levels of psychic life. While fully recognizing the magnificent achievements of the neurosciences in explaining some basic elements of psychic life, we should keep ourselves aware that the psychic spheres of man remain inaccessible to the purely somatic explanations and are outside their influence. It is unrealistic to claim that our best and most effective treatment of schizophrenic psychoses is 'merely' symptomatic. It is realistic to accept the probability that it is appropriate to the nature of many schizophrenias and that it is radical. It is unrealistic to believe that our only task is to cure illnesses. Often it falls to us simply and in all modesty to accompany patients through their lives along a path chosen entirely by themselves and to be allowed now and then to give a little help to them. It is unrealistic to believe that psychiatry provides a key to improve the world. It is realistic if we concern ourselves in the main with helping the sick, if we critically reflect on the effect our work may have beyond our patient, on society, and if we keep pointing out again and again the good which is in every human being and that we may sometimes bring out this goodness in him.
+
+
+
+
+
+
+In spite of the methodological difficulties demonstrated and discussed by the authors, that are revealed when determining biological age by examining average populations, there remains, particularly for the clinician to establish age standards and to cover the biological age in order to judging men correctly. Therefore it is reported on a new screening method of the establishment of biological age, which is regarded as supplementation of gerontologically orientated questions.
+
+
+
+
+For the fiftieth anniversary of Berger's first EEG publication, some of his early recordings obtained between 1924 and 1931 are discussed and illustrated. Examples of his protocols from the Freiburg Berger Archives are reproduced. Three types of Berger's early investigations are described: (1) String-galvanometer recordings obtained between 1924 and 1926, mainly from trephined patients with cerebral diseases, which usually showed brain waves slowed to 6--8 per second; (2) Direct recordings from the cortex and white matter proving the cortical origin of the EEG in 1930; (3) Typical unpublished EEG recordings of epileptics and of petit-mal attacks obtained in 1930 and 1931. Berger's first six papers published between 1929 and 1933 described nearly all the main EEG findings of cerebral diseases and the EEG alterations of normals during attention, sleep, and narcosis, but they did not report on convulsive potentials in the EEGs of epileptics. Berger had, however, obtained excellent records of epileptic EEG features, here depicted in Figs. 4 through 7. These remained unpublished until 1933 and 1938, because Berger suspected that they contained artifacts caused by blinks and facial movements which he had recorded in his controls (Fig. 4). Only in 1933, after other authors had described large amplitudes of convulsive potentials in the cortex of animals, did Berger publish parts of the EEGs of a petit-mal attack and of focal attacks in progressive paresis. In 1938, Berger presented the EEG of the beginning of a petit-mal attack with large 3/s spikes and waves recorded in 1931 which were similar to those described by Gibbs and coworkers in 1935. In 1933 and 1938, Berger interpreted the abnormal brain potentials of epileptics as signs of a preconvulsive state of the forebrain and suggested that the periods of 3/s waves were cortical correlates of an epileptic absence.
+
+Thin, isolated stacks of Narcine brasiliensis electric organ were prepared for freeze substitution using a rapid freezing device similar to that described by Van Harreveld and Crowell (1964). Although the impact stress was reduced as much as the design of the apparatus allowed, the tissue was found to become severely squashed and the first layer of nerve terminals was found to be badly damaged. However, in occasional blocks, the morphology of the deeper layers encouraged the view that the tissue could be well suited to the procedure if the impact squash could be minimized. A second problem was identified when studying the impact of various tissue holders with the freeze surface: the original type of apparatus is highly susceptible to bouce in the millisecond time range. Tissue squash was controlled by mounting the sample on a piece of dry foam fitted into a slotted striker tip. Bounce was eliminated by coupling the striker to a simple hydraulic-pneumatic damping device. When electrocytes were frozen with this apparatus and freeze-substituted, the first layer of nerve terminals was found to be intact, well frozen and well fixed.
+
+
+A device is described which is relatively easy to construct and which can be used to protect brain implants affixed to the skull of large primates. The device is essentially a stainless steel ring cemented around the brain implant. A plexiglass dome can then be attached to the ring to protect the implant. Further, a second device can be constructed which attaches to the ring and which provides gentle leverage to the brain implant to remove adhered obturators.
+
+This article describes changes in neuropathologic work towards a more intravital diagnostic aid, the increase in university neuropathologic departments, and the increased amount of neuropathology in teaching and examinations. These positive developments contrast with some genuine problems: the clinically oriented departments of neuropathology in some big research centers have been closed or altered and the personal staff of the university departments has been reduced. Subspeciality training in neuropathology within pathology should be supplemented by the possibility of entering neuropathology by way of neurology and psychiatry. Neuropathology should be connected to the neurosciences since this is the prerequisite to attain and maintain international research standards. However, the conditions necessary to achieve this aim personally and institutionally should be made available to all pathologists, clinicians, and administrators concerned with this subject.
+
+
+
+
+
+
+
+
+A method is described for the determination and continuous monitoring of the electrical threshold of single primary afferent fibres within the spinal cord of the cat. The centre barrels of multibarrel micropipettes, filled with 3.6 M NaCl, were used as stimulating electrodes, impulses in single afferents were recorded peripherally and a firing index of 50% was maintained by using a feedback circuit to regulate the amplitude of the stimulating pulses (0.2-0.3 msec duration, less than 2 microA).
+
+A technique for making recording microelectrodes containing an ultrafine carbon fibre is described. This technique can be used for single- and multi-barrel microelectrodes. These microelectrodes not only have a very low signal-to-noise ratio comparable with that found in tungsten microelectrodes but are simpler to make. When used in a multi-barrel array for iontophoretic application of drugs the carbon fibre microelectrode has many advantages over a fluid electrolyte-filled recording barrel, including very high signal-to-noise ratio and relative immunity to spike distortion during application of iontophoretic current.
+In order to impale cells lying in deeper structures of the brain with 'parallel' multibarrelled electrode, we designed a new apparatus for the assembly of a multibarrelled micropipette and a single barrel recording electrode. This device greatly simplifies the procedure of constructing electrodes with shafts of approximately 15-20 mm in length even if the multibarrelled micropipettes are pulled with a slightly curved shaft and the bend made near the base of the shaft is not exactly to the specified angle. Electrodes of this type greatly improve the size and stability of the extracellularly recorded units from the caudate nucleus.
+
+
+
+
+
+
+
+The catecholamine (CA) innervation of the rat brainstem was studied by biochemical analysis of discrete nuclei or areas and by glyoxylic acid-formaldehyde freeze dry fluorescence histochemistry. CA assays demonstrate that the highest norepinephrine (NE) content in brainstem is present in the trigeminal motor nucleus, nucleus tractus solitarius, dorsal motor nucleus of the vagus and nucleus raphe dorsalis. Bilateral locus coeruleus (LC) lesions do not significantly alter NE content in these nuclei but do decrease NE content in the superior and inferior colliculi, medial geniculate body, interpeduncular nucleus, pontine nuclei and the main sensory trigeminal nucleus (60-75%). Dopamine (DA) and epinephrine (E) are found in significant concentration in only a few of the nuclei examined. Fluorescence histochemical analysis indicates that two groups of NE axons innervate rat brainstem. LC neuron axons with a distinctive morphology principally innervate sensory and association nuclei of the brainstem. These disappear completely after bilateral LC lesions. The second group of axons originates from lateral and dorsal tegmental NE cell groups. Primary motor and visceral nuclei are densely innervated by fine and thick axons from these groups. Lesions of LC do not alter the NE innervation in any of the nuclei which contain axons of the second group. These results indicate that the brainstem NE innervation is divided into two major systems. The locus coeruleus complex innervates mainly primary sensory and association nuclei whereas the lateral tegmental NE neurons innervate primary motor and visceral nuclei. Although some overlap is present, the LC and lateral tegmental NE systems predominantly innervate separate and functionally distinct areas of the brainstem. DA and E neurons provide a very minor component of the brainstem CA innervation.
+
+
+
+
+A microprocessor based physiological data processor has been realised. The system controls the data flow from physiological experiments and performs on-line mean and variance calculations with an output in graphical form. The analyser accepts one data point every 0.5 ms and has a capacity of 128 records each containing 800 data points. Post stimulus histogram and interval histogram analysis programs have also been written and implemented.
+A theoretical study has been made of the release of drugs from iontophoretic pipettes. The chief predictions are: (1) in the steady state, release becomes linear with current and independent of pipette geometry when the ejecting voltage exceeds approximately 100 mV; (2) release rises relatively slowly during an ejecting pulse to approach its steady state value. At the end of the pulse, release falls abruptly. This asymmetry of the release curve is greatly accentuated by the prior application of a retaining current. It provides an explanation for the characteristic time course of response commonly seen when drugs are applied iontophoretically to central neurones: (3) the above effects occur on a time scale which depends strongly on the geometry of the pipette. Release from pipettes of large tip diameter and nearly cylindrical bore, such as those generally used in the central nervous system, should be thousands of times slower than from pepettes of small tip diameter and larger taper angle. Experimental observations of the release of an ionized fluorescent compound quantitatively confirm prediction (1) and qualitatively confirm predictions (2) and (3).
+A glass, double constriction injector micropipette ('micropet') has been designed to overcome problems associated with commercial microliter syringes. These problems include: inconsistent volume delivery, inability to view tracer during filling or injection, and the relatively large size of the needle supplied. 'Micropets' of different volumes are easily made from inexpensive, commercially available Drummond 100 microliter glass tubes (bores) fitted with teflon plungers. Tracer substances may be viewed in the bores during filling and injection and the needle tip can be pulled as small as 50 micrometers. For deep stereotactic injection, a long triple constriction 'micropet' has also been devised. The 'micropet' is based in principle on the commercial Lang-Levy double constriction micropipettes and these are used for radiometric calibration of the 'micropets'. Thus the 'micropet' accuracy is a reflection of these commercial micropipettes, and is approximately +/- 0.5%. Precision is also on the order of +/- 0.5% as determined by radioassay. When combined with an oil-filled, variable-speed microdrive the injector 'micropet' provides a highly controlled and precise system for the accurate delivery of tracer substance important for quantitative neuroanatomical investigations.
+A method is described for reversibly inactivating small, precisely localized regions of brain tissue with injections of nanoliter quantities of the local anesthetic lidocaine hydrochloride. The injections are made through a combined recording-injection probe consisting of a glass micropipette onto whose outer surface is plated a metallic cylinder for recording extracellular action potentials. The recording cylinder for recording extracellular action potentials. The recording cylinder, located a known distance from the pipette tip, picks up a continuous, large-amplitude, multiunit response which can be used to accurately position the tip according to physiological criteria. It also provides a means of determining the duration of the anesthetic block and estimating its spreat. This devise has been used to selectively block 200--400 micrometers regions of individual laminae of the lateral geniculate nucleus centered within 50 micrometers of a retinotopically defined target site. The blocks last from 3 to 10 min and can be repeated many times at the same location.
+
+
+
+A 200-point computer of average transients uses capacitors as the memory devices and MOS-FET switches. The averaged wave form is stored exponentially and the memory decays exponentially when that input is removed. The memory exponential time constant (i.e. the number of sweeps averaged) can be varied with one resistor. Read-out to an oscilloscope occurs simultaneously with read-in of each new signal. This linear circuit computes a highly accurate average, even though 10% components are used. It is more cost-effective than commercial digital averagers for many applications and can average evoked potentials, field potentials, weak single units and intracellularly recorded postsynaptic potentials.
+
+Three tape/pamphlet independent learning packages have been constructed to serve the same learning objectives as three conventional lectures on the physiology of the nerve axon. The learning efficacy of each package was compared with that of its companion lecture with the co-operation of fifty first-year medical students in a controlled experiment. The packages were at least as effective as the lectures in generating both short- and long-term attainment of their intrinsic learning objectives. The findings are discussed in relation to learning efficacy, student study time, student acceptability, package preparation time and costing.
+For better evoking and monitoring electrical activities of visceral nerves, a elastic electrode made of conductive plastic and silicone gum is developed.
+
+This article, written on the 60th anniversary of Korbinian Brodmann's death, discusses his schematic cytoarchitectonic chart of the cerebral cortex in relation to the brain sections from which it was derived and draws attention to the discrepancies between the two.
+
+
+
+
+
+
+
+
+The linearity of spatial summation within the receptive fields of Necturus retinal ganglion cells was examined with a counterphase-modulated split-field test stimulus. Modulation-locked histograms were constructed with the border at a variety of positions relative to the receptive field center. Most cells generated distinct, modulation-locked discharges when the border was 0.10 to 0.25 mm from the receptive field center. The discharges for more central border positions depended upon response type. Sustained-responding cells showed a sharp decrease in total response per cycle at the center position and increasing response for increasingly eccentric positions, i.e., nulling or X-like behavior. In contrast, the total response of transiently responding cells was largely independent of border position. For central positions of the border, these cells generated two bursts of impulses per cycle, i.e., frequency doubling or Y-like behavior.
+The ever-widening horizons in the neurosciences are noted by the author. Maintenance of the bridges between research and clinical practice will result in improved therapy. Research interest is expanding, and involvement by neurosurgeons and neurosurgical training programs is vital for future progress. Techniques are required to evaluate and assess new surgical procedures that evolve from research endeavors.
+
+
+
+
+
+
+
+Four aesthesiometers measuring fingertip sensation were fabricated, two for depth-sense perception and two for two-point discrimination. With the use of 20 normal subjects (10 female and 10 male) and seven subjects with vasospastic disturbance (three female and four male) comparisons were made to determine which of each pair of instruments was the more sensitive. The results indicated that instrument A is preferable to B in measuring depth-sense perception, and C is preferable to D in measuring two-point discrimination. Females appear to have more acute sensory perception than males. Female and male patients diagnosed as having &quot;Raynaud's disease&quot; show a loss in fingertip sensory perception.
+
+
+
+Nine currently available methods for HRP neurohistochemistry have been compared with each other on matching tissue sections from four rats and four rhesus monkeys. The nine methods investigated in this report are the diaminobenzidine (DAB) procedures of LaVail JH and LaVail MM (J Comp Neurol 157:303, 1974), of Adams JC (Neuroscience 2:141, 1977) and of Streit P and Reubi JC (Brain Res 126:530, 1977); the benzidine dihydrochloride (BDHC) procedures of Mesulam M-M (J Histochem Cytochem 24:1273, 1976) and of De Olmos J and Heimer L (Neurosci Lett 6:107, 1977); the o-dianisidine (O-D) procedure of De Olmos J (Exp Brain Res 29:541, 1977); the p-phenylenediamine dihydrochloride and pyrocatechol (PPD-PC) procedure of Hanker JS et al., (Histochem J 9:789, 1977) and the tetramethyl benzidine (TMB) procedures of Mesulam M-M (J Histochem Cytochem 26:106, 1978) and of De Olmos J et al. (J Comp Neurol 181:213, 1978). Quantitative comparisons were based on counts of retrogradely labeled perikarya. The extent of anterograde transport and the size of the injection site were also compared at a more qualitative level. The results indicate that one TMB procedure (Mesulam M-M, J Histochem Cytochem 26:106, 1978) is distinctly superior to each of the other eight procedures in the number of labeled perikarya that it can demonstrate. Furthermore, these differences are statistically significant at better than the 0.05 level of confidence. Differences in sensitivity are most evident when the perikarya contain small quantities of transported HRP. The same TMB method also demonstrates more anterograde transport and a larger injection site than all the other procedures. If less sensitive procedures are employed, afferent or efferent connections that are clearly demonstrated by this TMB procedure are either underestimated or completely overlooked. It is suggested that sensitivity in HRP neurohistochemistry is determined by multiple factors which include the method of fixation, post-fixation storage, the choice of chromogen, the incubation parameters, the type of HRP enzyme that is administered, and the postreaction treatment.
+This paper describes an improved electrode puller for the manufacture of glass microelectrodes or micropipettes. The instrument resembles a conventional horizontal two-stage, solenoid-powered electrode puller but the pull is now developed by a light moving-coil and a fixed permanent magnet, using the principle of the moving-coil loudspeaker. In a conventional puller the force is generated by a solenoid with a massive moving-iron core. In this new puller the moving-coil solenoid responds much more rapidly to changing currents because of its greatly reduced inductance, and a substantial reduction in mass to 25 g, gives more acceleration from a comparable force. The sudden discharge of a capacitor bank through the coil accelerates the glass quickly during the last stage of the pull. This rapid acceleration is of importance in the formation of good electrodes with fine tips. For the prototype, an electronic control unit was constructed which allows the parameters necessary for the manufacture of electrodes to be set and regulated accurately and repeatedly, so that series of electrodes of constant shapes can be made. The length of the electrode shank may be predetermined over a wide range and tip diameters down to 0.08 micron have already been measured. The angle of the taper that supports the tip may be varied from less than 1 to over 6 degrees. The mechanical design of the instrument is comparatively simple, as it has only one moving part, while the relative complexity of the electronic control section should not present any manufacturing difficulties. Although this puller has been used mainly to make single-barrel fine electrodes from borosilicate glass, it is adaptable for other purposes. The extent of the control over the shape of the shank of the electrode renders it particularly suitable for the manufacture of composite, ion-sensitive electrodes.
+In order to study calcium transients in the central nervous system of vertebrates a microphotoelectrode was designed. It is composed of three channels, through the first aequorin is perfused into the extracellular space under constant pressure, the second is an optical glass light-conducting channel, and the third a classical NaCl-filled recording pipette. The light emitted by the interaction of the injected aequorin with the local extracellular calcium is transmitted through the optic fiber to a photomultiplier of high sensitivity.
+A technique is described for embedding various sizes of diamond dust in a film of Varathane laid upon an optically flat glass surface. This forms a precise and very durable abrasive surface. When such abrasive surfaces are used with previously described equipment, micropipettes may be beveled rapidly and reliably to tip diameters extending from 0.5 micron to indefinitely large sizes. Beveled tips formed in this manner are extremely sharp, as shown by high resolution SEM photographs. Plugging of the micropipette tip during beveling is prevented by applying pressure to the contained electrolyte. This procedure allows the micropipette's electrical resistance to be monitored accurately and continuously, so that beveling may be stopped at the electrical resistance associated with any predetermined tip diameter. The beveling of such relatively large micropipettes appears to have a variety of applications in neurophysiology, plus additional applications in kidney and capillary micropuncture work.
+A method is presented allowing direct and continuous estimation of the excitability changes of single fiber terminal arborizations within the central nervous system. In essence, the method measures the current required to maintain a preset antidromic firing probability of the unit under study. This implies operation in a closed loop system controlled by a computer. With this technique one can accurately determine input-output curves of single units requiring relatively small current variations (0.15-2.1 microA) to change from zero to maximal probability of response. The method also allows measurement of the excitability changes produced by conditioning volleys to sensory nerves.
+
+The authors describe a new method of examing evoked spinal potentials. Derivation is by means of unipolar needle electrodes which are ventrolaterally introduced into the cervical disk space as far as the posterior longitudinal ligament. Detection of a spinal potential following the stimulation of brachial and crural nerves allows to exclude the possibility of complete transverse lesion of the spinal cord or severing of the peripheral nerve or plexus.
+
+
+
+Data of 2399 brain weights and ages from populations before 1880, 1885 to 1900 and 1966 to 1976 were obtained from German anatomical and pathological institutes, analyzed with non-linear and multiple linear regression analyses and the results compared. The influence of the absolute age (sample period) on brain weights of adults (age of at least 10 years of ontogenesis) could not be verified. Different averages in the different samples seem to be stipulated by inhomogeneities of the age distributions. Sex differences were confirmed for the different periods. There is an accelerated degree of maturity of brain weights between the population sampled from 1966 to 1976 and the two older populations. The growth rate of the degree of maturity reveals the same fact, i.e., the growth rate is more rapid than 100 years ago. These differences may be explained by changed causes of death in the autopsy samples, but it is possible that they are at least partly caused by an acceleration of brain development in the early postnatal period. In all populations analyzed brain weights in females develop faster than in males. The development of the brain weight in 6 more samples is compared with the results for the Medical School Hannover sample.
+
+The analysis of the course of reward training presented in early Konorski and Millers papers (1933, 1936) indicates that the appearance of active instrumental responses is related with the introduction of the partially reinforced, excitatory classically conditioned procedure. It is postulated that the mechanism underlying the effects of this procedure on the shaping of instrumental responses is similar to that proposed by Konorski (1967) for the effects of inhibitory classically conditioned stimuli on the performance of the instrumental response.
+
+We have designed a cannula system that can be chronically implanted to end above the dura of the cisterna magna of the dog. During experiments in the awake dog, a screw cap with stylet is removed from the cannula and a spinal needle inserted for the withdrawal of samples of cisternal cerebrospinal fluid (CSF) or for making continuous measurements of pressure. The system can be used for repeated experiments extending over several weeks.
+
+A circuit for an electrically quiet temperature controller is described that is suitable for controlling the temperature of a neurophysiological preparation above ambient temperature. By not generating spurious electrical signals it facilitates the recording of low level biological potential changes when temperature control is required. The device, constructed of standard electronic components, uses a thermistor as a sensing element and an ordinary heat lamp or heating strip as a heating element.
+A practical science of the brain scarcely existed before the 17th century except in terms of gross anatomy. In all countries vitalistic concepts held sway, yielding only slowly to more materialistic views. These developed at a different pace in different countries, due, in each case, to the dominant philosophies of the time: the English empiricists; the French Enlightenment; the Italian and German schools of experimental neurophysiology. The last to accept the materialists' viewpoints was Russia, whose scientists imported them from their training in Western Europe in the 19th century. A brief outline is given of how the history of brain science parallels the history of ideas in the 17th, 18th and 19th centuries.
+
+
+
+
+1. Superoxide dismutase (superoxide: superoxide oxido-reductase, E.C. 1.15.1.1) in different species was determined quantitatively and qualitatively. Although quantitative differences were minor, there were significant differences in the isoenzyme patterns among the species. 2. No quantitative differences were found in superoxide dismutase (SOD) activities in the brains of mice between 1 and 23 days of age. The mitochondrial isoenzyme increased with age, attaining maximal levels between 9 and 12 days. In the six, regions of adult rat brain studied, highest values of SOD were found in the hypothalamus and lowest in the cortex. 3. SOD levels generally were lower in several transplantable mouse and rat tumors than in normal tissues of these species. Mn-SOD was not detected in the tumors studied by the methods employed.
+
+
+
+
+
+
+
+
+
+
+
+Activity measurements are expected to have widespread use in toxicity testing. The multifaceted nature of motor activity will directly influence the selection of a measurement technique since the relative contribution of various motor acts to any particular measurement will depend upon the detection method. Because of the apparatus-dependent nature of motor activity measurements, it is recommended that consideration be given to how accurately the various devices measure locomotor activity. In the present paper, two types of body movement will be considered as locomotor activity: ambulation (horizontally directed movement) and rearing (vertically directed movement). Discussion focuses on the various methods currently used to record motor activity, the various components of motor activity which are likely to be recorded, and the advantages and disadvantages of these techniques for the measurement of locomotor activity. Finally, consideration is given to studies which have compared treatment effects on motor activity derived from two or more measurement techniques.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Epilepsy, a common chronic neurological disorder, constitutes an important medical problem especially as in the developing countries there is a great dearth and shortage of health personnel, especially trained ones, in clinical neurosciences. The prevalence of epilepsy in developing countries is probably higher than in the Caucasians although accurate epidemiological data are lacking. 2. Epilepsy is discussed with special regard to the need for accurate diagnosis, and the difficulties encountered in developing countries. 3. Pharmacotherapy should be as simple as possible and suggestions are made on the essential drugs useful in the control of epilepsy with special reference to developing countries and in the context of economics and ready availability. Grand mal and focal epilepsies could be controlled by phenobarbitone, with phenytoin, sulthiame and carbamazepine kept as reserves or adjuncts. Minor (generalised) epilepsies could be controlled by ethosuximide, with clonazepam and sodium valproate (sodium dipropylacetate) as reserve drugs and adjuncts. For status epilepticus, diazepam is effective and readily available, with clonazepam and phenytoin as alternatives. 4. The problems in the management of epilepsy in the developing countries include lack of facilities and personnel to ensure accurate diagnosis and treatment, inadequate supply or non-availability of drugs, high defaulting rate of patients, the adverse and often pernicious social stigmatisation of the epileptic. 5. Possible solutions to some of these problems include integration of management (in simple terms) of convulsive disorders into the basic health system of delivery of health care in developing countries, aggressive pursuit of health education of the public by governmental and non-governmental agencies, active, intensive and sustained promotion of training of health personnel in clinical neurosciences and research aimed at producing long-acting anticonvulsants.
+
+
+
+
+
+
+
+
+
+
+
+
+In the nervous system of several mammalian and submammalian species, LETS protein is detectable on endothelial cells, choroid epithelial cells, fibroblasts and leptomeningeal cells. On endothelial cells LETS is present at the cell surface facing the blood vessel lumen, but not the glia limitans nor its basal lamina. Choroid epithelial cells do not carry LETS at their apices protruding into the ventricle, but are antigen-positive at their basal ends, in basal lamina and plasma membrane. Fibroblasts in the leptomeninges express LETS at their cell surface only, whereas pial and arachnoidal cells contain the protein also intracellularly. Neither glial nor neuronal cells express LETS protein. This pattern of LETS localization in nervous tissue was observed for adult and developing (embryonal day 9 onwards) animals of two species: mouse and chicken.
+
+A radioimmunoassay for urinary tetrahydrocortisol (THF) is described. Antibodies were produced in rabbits against a THF-monohemisuccinate:bovine serum albumin conjugate. The radioimmunoassay procedure involves enzymic hydrolysis of the urine, extraction with ethyl acetate, radioimmunoassay, and separation of free from bound steroid with Somogyi reagents. The antibody showed some cross-reaction with tetrahydro substance S (36%) which does not occur in urine in appreciable amounts and with tetrahydrocortisone (10%) which does. An analysis of monkey urine extracts before and after tlc purification revealed that the THF antibody was specific enough to permit assay of urines for THF during stress experiments without a purification step. THF values obtained correlated very highly with 17-hydroxycorticosteroid values on the same urines obtained from monkeys during a chair restraint experience (r = 0.97). Also for comparison purposes these same urines were assayed for free THF, total cortisol, and free cortisol. The free (unconjugated) steroids showed the greatest percentage increase over basal levels.
+A brief account has been given of the events during the last quarter of the nineteenth century which led to the concept of the sensorimotor cortex. An early review by Frederick Mott has served as a useful guide. Particular attention has been paid to two early startlingly prescient papers by W. Bechterew. Since, however, Bechterew changed his views in subsequent publications, he forfeited a major claim for priority, and his early papers were forgotten.
+The present paper addressed the continued misinterpretation and misapplication of linear discriminant function analysis in neuropsychological research. Methodological problems concerning the influence of shrinkage and stepwise selection procedures on LDFA are virtually ignored and affect both the classification and inferential application of LDFA. Throughout the paper examples of potential abuses of LDFA were cited and data from a familiar research problem was employed to demonstrate procedures which enable more accurate interpretation of LDFA results. Linear discriminant function analysis and its multivariate equivalents are powerful and flexible tools for exploring group differences provided appropriate applications and interpretations of results are made.
+Bile salts, mechanical trauma, and ischemia were used to produce focal alterations in rat gastric mucosa in a chamber preparation. Gastric mucosal to serosal potential difference (PD) was measured from both treated and untreated areas using electrodes in contact with the mucosal surface. The sensitivity of the measurements was increased if a nonconducting solution (isotonic sucrose) was used to isolate electrically the control from the experimental sites. This &quot;sucrose gap&quot; technique thus allows the identification of focal areas of gastric mucosa with an altered PD. In addition, this technique was used to measure the PD of the forestomach, fundus, and antrum of the rat, and to demonstrate that atropine and pentagastrin influence the PD only in the fundus.
+Corneal touch threshold was monitored while corneal edema was experimentally induced by exposing the cornea to either an oxygen-free environment or hypotonic saline. No change in sensitivity occurred during these conditions. Contact lens wearers who were fully adapted to their lenses and did not develop corneal edema during wear showed an increase of 96% in corneal touch threshold. Refitting these subjects with an experimental contact lens which caused a 6% increase in corneal thickness did not further alter the corneal sensitivity. The decrease in corneal sensitivity accompanying contact lens wear is independent of corneal edema and is likely a result of sensory adaptation to a mechanical stimulant.
+Questionnaires asking for information as to what medical school electives should be taken by a student contemplating a career in ophthalmology were sent to 280 practicing ophthalmologists. Seventy-two replies were received and indicated that a medical school background in neurosciences, ophthalmology, anesthesiology, otolaryngology, dermatology, and infectious disease are believed to be most important.
+The multichannel audio monitor (MUCAM) permits the simultaneous auditory monitoring of concurrent trains of electrical signals generated by as many as eight different sources. The basic working principle of this device is the modulation of the amplitude of a given pure tone by the incoming signals of each input channel. The MUCAM thus converts a complex, multichannel, temporal signal sequence into a musical melody suitable for instant, subliminal pattern analysis by the human ear. Neurophysiological experiments requiring multi-electrode recordings have provided one useful application of the MUCAM.
+
+
+A simple and reliable method for stereotaxic approach at any angle is described. The presentation of the coordinate on a template replaces calculation of stereotaxic coordinates.
+Procedures and instrumentation are described for making micro-injections into early avian embryos. Tools for implementing injection include support probes and micro-cannula adapters, both of which greatly reduce embryonic insult. Using these instruments, viability following certain early embryonic injections has been shown to increase from 29 to 95%.
+
+
+Horseradish peroxidase (HRP) was injected into the mandibular process of the first visceral arch in chick embryos of 3-6 days of incubation. On days 3 1 2 , 4 and 4 1 2 of incubation, this procedure resulted in granular reaction product in neuroblasts of the lateral trigeminal nucleus and in soma and processes of neuroblasts in the process of migrating from the medial column to form the lateral nucleus. On days 5 and 6 of incubation, similar labeling was found in cells migrating from the lateral nucleus dorsal to form the dorsal trigeminal nucleus. This is the first clear demonstration of the extent of differentiation which may take place during neurogenesis prior to the completion of migration.
+Interaction between receptive field halves has have investigated in cells from area 18 of the visual cortex of cats light anesthestised with N(2)O/O(2) supplemented with pentobarbitone. Interaction within receptive field halves may be facilitatory additive, partially additive, or subtractive, and the organization in one half-field is not predictable from that in the other. Interaction between half-fields may be facilitatory, additive, partially additive, or subtractive and can not be predicted from interaction within halves.
+
+
+
+A. v. Strmpell is appreciated as one of those internal specialists who inaugurated neurology in Germany and furthered decisively its development. Issuing from the opinions which Strmpell expressed at the end of his life the further way of the German neurology up to an independent clinical discipline is described in short. Here the partly historically, partly really proved relations of neurology to internal medicine as well as to psychiatry are taken into consideration. Integration is characterized as an actual request, since with progressing differentiation and specialisation of medicine the adherence to the traditional structures and borders of the specialities becomes more and more questionable.
+
+
+
+A technique that enables both catecholamines (CA) and horseradish peroxidase (HRP) to be localized in the same cell is described. HPR was injected into the spinal cord and three days later rabbits were perfused with a mixture of 4% formaldehyde and 0.5% glutaraldehyde to produce a fluorescence reaction in CA-containing cells. Subsequently, HRP was localized in the same neurons using tetramethylbenzidine.
+
+
+
+
+
+
+
+
+Occupation-oriented vestibular selection is based on the two principles: selection of vestibular-resistant subjects, and increase of vestibular tolerance through training. The latter implies inherited ability of the central nervous system to attenuate vestibular reactions. The review surveys experimental data concerning attenuation (habituation) of vestibular reactions as a result of prolonged or reiterative excitation of labyrinthine receptors. The review discusses peculiar features of the development, stability and transfer of habituation. It gives data on disturbed habituation as a result of an exposure to stress-effects (hypokinesia, hypoxia, hypothermia) and certain drugs. The phenomenon of vestibular habituation is interpreted in terms of Sokolov's concept of the stimulus nervous model.
+
+In the parietal association area of alert monkeys, a peculiar type of visual tracking neurons (VT neurons) were found in the posterior part of area 7. These cells were excited not only by the act of tracking but also by movement of a frame around the stationary target fixated by the monkey. The latter stimulation was the same as used to evoked visual illusion of &quot;induced movement&quot;. This dual sensitivity of the VT neurons to real and induced movements of the target suggests that these neurons are closely related to motion perception of visual target.
+The ability to communicate affects the total person and penetrates nearly every aspects of living. To best assist those persons experiencing language loss, the nurse needs to gain basic knowledge about the types of aphasia and about techniques to guide these persons in regaining communication skills that promote self-care. For the aphasic, relearning each small step in communication is a triumph. It is hoped that we can aid these individuals in experiencing many triumphs.
+
+
+This presentation is necessarily an overview of the work in our laboratories. We have chosen to study oligodendroglia and myelin first, because we have specific markers we can use, and we can focus on specific disease entities. However, the same strategy can be applied to neurons and neuronal diseases. Despite major advances in the neurosciences, many questions remain unanswered. In general there has been a predictable sequence in our progress in understanding the nature of neurological disorders. Early studies focused on a clinical description of the disease. Next the pathology was described, and attempts were made to correlate these findings with the clinical symptoms. Now that we are able to isolate some of the cells involved in specific diseases (see Table I) we can begin to investigate the normal metabolism of these cells, study their components, and follow any changes that take place under different pathological conditions. Thus, we have shown that it is possible to study and perphaps eventually provide therapy for certain disorders, such as multiple sclerosis, without knowning that delineation of events in the normal cell is an essential step in unraveling the mysteries of neurological disease.
+
+Advances in neuroscience research have led to substantial expansion and even revision of many concepts of neuronal structure and function. The essence of this progress is contained in the knowledge that there are multiple modes of information processing in neurons and even subneuronal elements such as the dendrite. The challenge and opportunity of the new findings lies in understanding how the various modes are integrated in complex brain function. Progress in this area should offer new insights into the pathophysiology of neurological disease.
+The history, philosophy, and methodology of a unique specialized medical information center are reported. The Clinical Neurology Information Center is an educational information service (giving its audience information which can be the basis for formulating their own questions) rather than an instructional information service (giving information in reply to questions). Clinical, as well as basic neuroscience, information is culled by professional neurologists from 855 medical periodicals. The essence of each article is summarized in a single sentence (&quot;terse conclusions&quot;) or a bibliographic reference only is given; this material is published every two weeks in the Concise Clinical Neurology Review (CCNR). The format of the CCNR is such that the reader should be able to scan a very large amount of current literature by investing only twenty to thirty minutes every two weeks. The values of this system as well as some of its problems are discussed.
+
+
+
+
+
+
+
+
+This paper reviews the impact on physiology of the revolutions in the communication sciences and technology that have occurred in the last 35 years. Particular attention is given to the significance of the cybernetic suggestions of Norbert Wiener--specifically, the ideas of negative feedback, of the computer as a brain metaphor, and of signal-and-noise considerations in information processing. It is argued that the first two of these have not in fact made much lasting contribution to physiology beyond providing loose analogies. On the other hand, the ready availability of a wide variety of electronic measuring and signal-processing devices from communication technology has clearly had a substantial impact. And it is proposed that the kind of models and concepts that are necessary for the characterization of the nervous system as an information-processing device play now, and will continue to play in the future, a major role in physiology.
+
+
+The authors present a circuit and the work principle of a device analysing the sum total electrical activity of the nerves. The device works by the principle of a frequency meter, it is made of integral elements, has a simple scheme, and is linear.
+
+New techniques are are continuously being developed to obtain animal brain tissue that is as close as possible to its in vivo status. The brain-blowing technique provides a swift freezing of brain tissue (within 1 s) in which postmortem changes have been said to be minimal. Higher concentrations of glucose were present in brain samples removed by this method than have previously been found when the brain was frozen in situ, but at the same time the plasma levels of glucose were higher. It is suggested that, although the procedure did not appear to involve any stress, the hyperglycemia was stress related. Modifications of the procedure are described, by which these changes in blood glucose have been minimized.
+
+
+
+
+
+
+Semicarbazide (SC), an antivitamin B(6), was injected directly into the superior colliculus of the mouse. A running fit preceded by excessive alertness, was induced by a very small dose of SC after a remarkably short latency as compared with systemic administration of SC. Afterwards, animals often exhibited repeatedly tonic and/or clonic convulsions and some died subsequently. Either intracollicular (i.c.) injection of pyridoxine at the same site, or intraperitoneal (i.p.) injection of aminooxyacetic acid, suppressed these manifestations. The behavioral changes after intracollicular injection of SC and the effect of the antidotes were similar to those by systemic administration of SC. The relationship between this induction of running fits and the gamma-aminobutyrate-mediated system is discussed.
+A method is proposed to estimate the number of subpopulations which compose a heterogeneous experimental population. The method consists of reconstructing a population sample by adding computed subpopulations, postulated to be independent. The assumption is made that each subpopulation fits a normal distribution; the method may also be generalized to other distributions laws; each subpopulation can thus be entirely defined by its mean, variance and relative weight. Recurrent adjustments of number and parameters of subpopulations are carried out in order to minimize the difference between synthetized and experimental populations. This difference was measured by the quadratic distance chi2 between the two populations. Mean, variance and weight of the computed population must then be close to those of the experimental population in order to consider the results as acceptable. This method is discussed with regard to others proposed in the literature.
+
+
+Eighteen LH aphasic patients, 11 LH nonaphasic patients, 19 RH patients and 30 normal controls were compared on the Elithorn Perceptual Maze Test (EPMT) under both timed (T) and untimed (U) conditions. Results show that (a) normals were superior to LH groups within the T, but not the U, condition; (b) normal and LH groups were superior to RH groups under both T and U conditions; (c) the 2 LH groups did not differ from each other and (d) the RH group without language difficulty was superior to the RH group with language difficulty in the T, but not the U, condition. Additional findings were that (a) RH patients were able to process significantly fewer dots for maze solution than LH patients, (b) the more aphasic the patient, the more he improved his score from the T to the U condition. The data were discussed in terms of differential processing in R and LH groups, the RH groups being more likely to be impeded by the visual and spatial features of the task, the LH groups by the language and sequencing features.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Following a historical approach, the authors first describe the original development of the concept of inhibition in neurophysiology and then analyze the subsequent adaptations made in psychiatry around such concept including those of: -- Pavlov, Hull, Watson and the behaviorists, -- Freud and the Freudian School, -- clinicians and psychopharmacologists. The concept of inhibition has thus various meanings in psychiatry. Although some unity is achieved on the semiological level, this aspect cannot explain the extent of the process.
+
+
+
+In a little more than a decade (1954--1965), the pineal gland was demonstrated to be an active neuroendocrine transducer in contrast to a functionless vestige as earlier supposed. The two major contributions which laid the groundwork for the development of modern pineal science were Kitay and Altschule's book The Pineal Gland (1954) and Lerner's isolation and structural work on melatonin (1958). After Lerner's discovery, biochemists, anatomists, and physiologists determined much about the structure and function of the pineal gland. In 1965, Wurtman and Axelrod tied this earlier work together by characterizing the pineal as a neuroendocrine transducer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As a result of investigation on architectonics of structural organization of the brain neocortex in dolphin, frontal, parietal, temporal and occipital regions, as well as certain fields were distinguished. Monotonous character and incomplete stratification of the neocortical lamina, lack of clear border line and similarity with interstitial formations demonstrate symbolic meaning of the word neocortex as it is applied to the cetacean brain. Therefore, the term preneocortex is suggested for the dolphin brain.
+
+
+
+Freud built his model of the mind and his hypotheses about dreaming directly on the structure of his neurobiological model of the brain, which was developed in the &quot;Project for a Scientific Psychology&quot;, written in 1895. Among the concepts modeled in this work were ego, somatic drives as motivationally critical, cathexes of psychic energy, wish fulfillment, and primary and secondary process. From the vantage point of more than 80 years later, the authors indicate the areas in which many of Freud's neurobiological assumptions are inacurrate. Revisions are needed in the neurobiologically derived psychoanalytic concepts, especially those of Freud's wish fulfillment-disguise theory of dreams.
+
+The development of a single microelectrode clamping circuit for central nervous system preparations is presented. The efficacy of the circuit in both current and voltage clamp modes is demonstrated by investigating the membrane properties of cat spinal motoneurons. Results are compared with those obtained using conventional techniques and reveal that this technique can be more readily applied to central nervous system neurons. The constraints invovled in employing this system to study time-varying events are also discussed.
+
+Techniques are described for artifically respiring, anesthetizing, head-holding, operating on and recording from single neurons in the VIII nerve of newborn rats weighting as little as 4.9 g.
+
+
+A new decanting device of fine stainless steel needles has been developed, which can remove a layer from a gradient with little contamination from the adjacent upper or lower layers. This new apparatus can be used for removal of a very narrow band from a density gradient and has been successfully used in the fractionation of synaptic vesicles from brain homogenates.
+
+
+
+
+
+
+
+
+
+
+
+
+The monoamine innervation of the organum vasculosum lamina terminalis (OVLT) was studied using fluorescence histochemistry and the autoradiographic tracing method. Fluorescence histochemistry demonstrates serotonin terminals in close proximity to the capillary plexus of the OVLT, in the same region where the apparent terminals of luteinizing hormone-releasing hormone neurons are localized. No catecholamines are evident in this area. Autoradiographic studies indicate that the serotonin innervation of the OVLT arises in the midbrain raphe nuclei. Thus, the OVLT is similar to other circumventricular organs, the subfornical organ and the subcommissural organ, in receiving a rich innervation from serotonin neurons.
+
+
+
+
+Recent information about the localization of sympathetic nerves and catecholamine-containing cells suggests sites of action not usually described in the neuroscience textbooks. In this study, we focused on the autonomic controls that affect ganglia, heart, gut, and chemoreceptors. As a result of some speculation derived mainly from histochemical observations and partially from physiologic data, we concluded that at the organ level the interplay between a nerve terminal-receptor serves as a local control. Additional controls may function at the ganglion level where catecholamine-containing chromaffin cells may serve as interneurons. We suggest that all peripheral catecholamine-containing elements which function in a modulatory role are not vital to the survival of the individual but rather serve as &quot;fine tune&quot; adjustment that do not involve the central nervous system.
+
+
+
+The surface properties of a clone of mouse neuroblastoma cells were modified by the use of concanavalin A that binds to these cells through specific interactions with saccharide-containing receptors. These receptors were found throughout the surface membranes of the cell body as well as the neurites of neuroblastoma cells. Neither resting nor action potentials were modified by treating the cells with concanavalin A (20-25 mug/ml) for 60 min at 35 degrees C. Instead, concanavalin A blocks the muscarinic response and possibly the nicotinic one to applied acetylcholine.
+The effects of l-2,4-diaminobutyric acid (DABA) on GABA levels and on the activity of GABA metabolizing enzymes have been studied in a number of rat brain regions after both acute and chronic administration. Kinetic studies indicated that DABA was a non-linear, non-competitive inhibitor of GABA transaminase activity. The DABA-induced elevation of GABA levels paralleled the inhibition of GABA transaminase activity. DABA was a more effective inhibitor of GABA transaminase in vivo than in vitro, and this inhibition probably produced the elevation of GABA levels. The neurotoxicity of DABA appears to produce a use in GABA replacement therapy.
+Prior evidence from our laboratory has implicated the subfornical organ (SFO) as a site of angiotensin-II (A-II)-induced drinking [22]. In the present study, animals were denied access to water for 0, 0.5 and 1.0 h following a single intracranial A-II injection into the SFO. Even after a delay of 1.0 h, A-II-injected animals showed increased water consumption compared to controls. Animals injected with A-II and tested immediately consumed significantly more water than the 1 h delay animals. Potential mechanisms involved in the maintenance of the drinking effect of A-II after 1 h and the decreased drinking in 1.0 h relative to the 0 h group were considered.
+
+
+A procedure has been developed for the stable long-term recording of nerve signals in unanesthetized mammals, which should have wide application in basic research on the nervous system and also in clinical areas such as the derivation of control signals for powered prostheses. Methods are fully described for constructing devices consisting of (1) Silastic nerve cuffs containing three or more electrodes, (2) coiled leads insulated with Silastic which extend from the cuffs to an integrated circuit socket, (3) a vitreous carbon transcutaneous connector which surrounds the integrated circuit socket and makes a good interface with the skin. Neural activity has been recorded from mammalian nerves for many months during normal behaviour. The peak-to-peak amplitude and latency of the recorded compound action potentials remain stable and may continue at a constant level more or less indefinitely. A tripolar recording configuration between a central lead and the two end leads, which are connected together, permits good rejection of EMG signals from surrounding muscles. The amplitude of single unit potentials increases as the square of the conduction velocity of the nerve fibre. Thus, the largest nerve fibres will dominate the signals recorded during behaviour. The reasons for premature termination of a few experiments are given together with methods for overcoming these problems. For example, platinum-iridium electrodes remain relatively stable, whereas silver wires tend to fracture after being in an animal for several months. This and other relationships are discussed which permit an optimal design of nerve cuffs for a given recording situation.
+
+
+Two groups of congenitally deaf and two groups of hearing right-handed subjects identified pairs of nonsense shapes and letters after simultaneous bilateral tactual exploration. In response to shapes, left and right hand pointing to multiple choice arrays were compared. Three response modes, writing and left and right and fingerspelling, were compared for letters. A tendency for right tactual field superiority for shapes was observed in all groups. Groups initially exposed to letters showed significant right field superiority across response modes for shapes. No left-right asymmetries were observed for letters. Differences due to deafness were not observed.
+
+Retinal action potential (RAP) was recorded at different depths in the median eye of scorpion, using a glass micropipette electrode (tip diameter 2-3 mum). The amplitude of RAP was largest when the tip of the electrode touched the distal process of the receptor cell (RC). The polarity of RAP became reversed when the tip was inside the cell body. It is suggested that RC acted as a dipole with the outer segment being the current sink and the cell body, the source. This situation is similar to the findings in the light receptors of insects, crustaceans, molluscs and also in vertebrate retina.
+
+
+
+
+
+The past decade has seen a growing understanding of functional capacities and structural organization of cell membranes. Studies in immunology, endocrinology and neurobiology have led to some unifying concepts about processes of transduction at the membrane surface, and the coupling of surface events to the interior of the cell. My interest in these problems has been directed in no small measure by interactions with Lars Onsager. His kindly tutelage and rigorous criticism have been a source of endless encouragement to those who sought the full measure of his wisdom in the difficult area of the energetics of membrane excitation. Onsager's unflagging interest in mechanisms of ion transportation led him to earnest consideration of a variety of non-classical models of conduction in proteins, always tempered by his deep insight essential aspects of physical chemistry. My discussions with him at the MIT Neuroscience Research Program were a regular stimulus to the experiments which our groups have undertaken in search of answers to questions raised by the models presented here. Above all, Lars Onsager was a kindly, gentle man. In this personal example, he will be as sadly missed as for his broad and imaginative approach to critical questions in the physical and biological sciences.
+
+
+A periodic oscillating breathing was observed in 11 subjects during study of their pulmonary function. All these patients were male and more than 50 years old. A cardiovascular disease was clinically evident in eight of them. Arterial hypoxemia was found in five subjects and a light hypocapnia in three. Analysis of oscillating rhythms first, revealed unexistence of ventilatory pauses between periods of deep breaths in some subjects and secondly, showed existence of permanent or discontinuous periodic rhythms. Breath by breath changes in ventilation were essentially induced by oscillations in tidal volume. Discontinuous oscillating breathing appeared after forced maximal inspiration and this periodic rhythm was frequently associated with sights. This periodic breathing began or persisted under progressive hypoxia but disappeared under normobaric hyperoxia. These data are discussed in terms of changes in the ventilatory control system and in central regulation of breathing patterns.
+
+The persistent defense of biological individuality is explained on the basis of the concept that &quot;foreign&quot; and &quot;self&quot; are complementary phenomena. Since it is the T-lymphocyte of the immune system which recognizes &quot;foreign&quot;, its receptor must represent &quot;self&quot;. How is this accomplished in immunogenetic terms? An intriguing possibility would be the somatic reduplication and amplification of &quot;self&quot; through random combinatorial principles by means of exclusion: all receptors are formed, but those directed against &quot;self&quot; suppressed while the others (including those identical with &quot;self&quot;) remain at disposition. In this way, HLA gene products, rather than representing immune receptors themselves, would prime the formation of the immunological repertoire indirectly. The concept that &quot;self&quot; plays the role of a template copied by the actual recognition system is supported by elementary information theory. Analogies to other, higher biological information systems such as the brain are drawn. Moreover, since neuroscience and psychology are in fact inseparable, the analogies reach even much further. A common blueprint can be traced from primitive cell to cell interactions through molecular immunology to neurochemistry, psychology and philosophy. Particularly Jung's concept of psychological individuation as the never-ending struggle of the human individual for consciousness would precisely fit the role of &quot;molecular individuation&quot; as a means of acquiring the immunological repertoire. In psychological terms &quot;foreign&quot; corresponds not only to the outer world (antigens( but also to our own unconscious (antiidiotypic set) resulting in a similar network of mutual interactions between conscious and unconscious much as between idiotypes and anti-idiotypes.
+Within the limits of standard neurophysiologic techniques, we have attempted to redefine laryngeal spasm as distinct from the glottic closure reflex. This distinction is based upon the observation that laryngeal spasm is solely mediated by the superior laryngeal nerve. Stimulation of other afferent nerves, capable of eliciting the glottic closure reflex, produces little adductor after-discharge activity that is characteristic of laryngeal spasm. In this regard, modification of output function from the adductor motoneuron aggregate by means of temporal and spatial summation of sensory input data has been described, and its characteristics further defined in response to varying ventilatory states and barbiturate levels.
+
+
+
+
+
+This article gives an evaluation of Ernst Mach's contribution during the period from 1865-1868 to the field of sensory physiology with special reference to the development of retinal neurophysiology.
+
+Increasing experimental concern with locomotion and its neural control prompted the construction of a motor-driven treadmill for cats. The apparatus was designed for kinematic analysis of gait from 16 mm movie film, but it will also permit a variety of other records to be taken. A box, or base, houses two large drums and the belt drive. Space is provided on top of the base for a closed locomotion compartment that is transparent on the filming side. There is also sufficient space on top of the base for support apparatus, operator controls, and animal exits. Cats may be trained to work for food reward alone, as delivered from the front by the operator. Alternatively, they can be trained to stay near the front of the treadmill belt in order to avoid an aversive jet of air or electric shock, either of which can be delivered at the rear of the test chamber. The operator can maintain forward belt velocity at fixed levels between 0.5 and 6 m/sec, or he can vary velocity continuously. Displays of a tachometer and a special timing device are large enough to be clearly visible on the film. These various features in combination provide a controlled and varsatile stepping environment, in which the cat can move without physical restraints.
+
+
+Cooling of the medial aspects of the midbrain tegmentum produces high voltage EEG rhythms and behavioral depression. This same procedure carried out in cats pretreated with parachlorophenylalanine between post-drug hours 20 and 60 produces a state exhibiting the tonic and phasic EEG, EOG, EMG and gross behavioral criteria of the paradoxical episode of sleep.
+Clinical study of three schizophrenic men without known seizure disorders has heuristic implications, pointing to neurophysiological factors in their somesthetic hallucinations: (a) In two instances the body areas involved in such hallucinations (the abdominal cavity and the top of one foot) also happen to be represented side by side on the &quot;map&quot; of the receptive somesthetic areas at the postcentral gyrus. (b) In all three schizophrenic men the occurrence of their somesthetic hallucinations can be conceptualized along the lines of MacKay's (1970) information flow model for perception in general, with some specific modifications, which center around the key roles of sufficient change occurring in two specific aspects of this model. (c) Further conceptualization is suggested within Grey Walter's (1973) testable model of triple association among Conditional, Imperative and Operant Response--albeit mostly in reverse sequence with respect to somesthetic hallucinations under discussion. These schizophrenic men reveal in their past and present experiences a pattern in which the sequence of events is initiated through changes at the efferent side (restriction of voluntary motility), which trigger afferent experiences, albeit hallucinated ones. Practical implications center around the probably salutary role of voluntary motility performed purposefully and at the person's own pace.
+
+
+
+
+
+
+
+
+
+This paper describes a program for the processing of trains of nerve or muscle impulses (spikes). The program is designed to allow the efficient use of semiautomatic or manual measuring devices. It will handle up to six different sets of spikes and one cyclic,non-spike event (e.g., changing light intensity or limb position, etc.) Output may include computed interspike intervals and instantaneous frequencies, phase relationships between sets of spikes and between spikes and the non-spike event, and parameters of bursts found in the spike trains. Output is presented numerically and in the form of line-printer graphs,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A new method for evaluation of phasic spike responses is proposed. It is based on defining the time interval deltat in which spikes occur after the stimuli so often that the probability of finding a similar or more &quot;suspicious&quot; interval when the response is known to be absent (i.e., probability of error) is minimal. The offered response measure combines on the probability basis two different parameters: the time interval deltat and the number of trials containing at least one spike in deltat. The deltat interval may have any duration and location acceptable in the physiological sense, and is not supposed to be chosen a priori. This approach has been proved to be adequate and unambiguous. A technique is also proposed for estimating the error probability without using the characteristics of distribution of interspike intervals, which for this reason can be applied to any neurone. By means of this technique a table for non-parametric estimation of significance of spike responses has been compiled.
+
+
+
+
+The presence of dopamine beta-hydroxylase activity in the cerebrospinal fluid of rabbits has been shown using a sensitive radiochemical assay; the identity of the reaction product was confirmed by using thin layer chromatographic techniques. The enzyme found in this fluid has some properties (sedimentation and electrophoretic migration) in common with the best characterized preparation of dopamine beta-hydroxylase, that prepared from bovine adrenal chromaffin granules. It also has these properties in common with the enzyme present in the high-speed supernatants obtained from osmotically disrupted synaptosomes prepared from rabbit brain. When the sciatic nerves of rabbits under urethane anaesthesia were stimulated, or when shaved rabbits were subjected to cold stress, the level of dopamine beta-hydroxylase in the cerebrospinal fluid increased. The increase in response to nerve stimulation was gradual, starting within 90 min of stimulation and remained high for at least 3 h after the stimulation had ended, at which time it was 280% of the normal value. There was no equivalent increase in the protein concentration of the cerebrospinal fluid nor was there a change in the enzyme activity when sciatic nerves were exposed but not stimulated. The enzyme present in the cerebrospinal fluid during this period of high activity is identical in its sedimentation and electrophoretic properties to that present in normal fluid. It is suggested that the dopamine beta-hydroxylase activity in cerebrospinal fluid may be derived from noradrenergic neurons within the brain and that the enzyme is released together with noradrenaline.
+Arylsulphatase A and 2',3'-cyclic nucleotide 3'-phosphohydrolase activities of myelin deficient mutant mice brains were studied. The results indicated that there were no changes in arylsulphatase A activity of the developing mutant brain, whereas the activity of 2',3'-cyclic nucleotide 3'-phosphohydrolase decreased considerably. The data obtained in this study suggest that in brain arylsulphatase A activity is localized in cells other than oligodendroglia.
+An artificially-created electroencephalogram was used to perform a comparison between the indirect and direct analysis methods. The results obtained by Fourier transform of the correlation function and smoothing of Fourier series development differ for a stochastic process in which the correlation functions are not sufficiently damped. Some mathematical framework is also appended in which the difference is worked out from a more theoretical point of view. In order to obtain results independent of inherent conditions, which in the simplest way can be detected by calculating the correlation functions, the indirect method is preferable.
+Previous studies have established that short treatments with diisoprophylphosphorofluoridate of chick embryo muscle cultures irreversibly inhibit the enzyme acetylcholinesterase and that the enzyme's levels in the cells rapidly recover due to synthesis of new protein. In addition, it has been shown that acetylcholine, acetyl-beta-methylcholine and choline increase the acetylcholinesterase content of the cultures. In the experiments presented here, actinomycin D and cycloheximide were used to study the relationships between the synthesis of ribonucleic acid and of protein, the recovery of acetylcholinesterase levels after diisopropylphosphorofluoridate treatment and the increase of acetylcholinesterase levels evoked by choline and its esters. Both recovery of acetylcholinesterase and the increase in its activity with acetyl-beta-methylcholine occurred in the absence of ribonucleic acid synthesis but required protein synthesis. The results suggest that transcription of desoxyribonucleic acid and a change in the degradation rate of acetylcholinesterase are not involved. An additional finding was that the level of newly synthesized acetylcholinesterase activity continued to increase for a short period of time after synthesis of protein had ceased, as if some previously synthesized protein was being transformed into active enzyme.
+The effect of 'chemical sympathectomy', produced by daily intraperitoneal injections of guanethidine sulphate for six weeks, was studied in sedentary rats and in rats chronically exercised by swimming. The guanethidine-treatment itself caused the following changes. There was a reduction in the rate of weight gain resulting in a 7% lower final body weight. Organ content of noradrenaline was decreased by 90% in spleen and submandibular glands and by 83% in the heart. Urinary excretion of noradrenaline was also decreased, but to a lesser degree, both during rest (45% lower) and after acute exercise (46% lower), while the urinary excretion of adrenaline was no different from that of controls. There was a compensatory adrenal hypertrophy in the guanethidine-treated rats, with a significant increase in adrenal catecholamine levels that was more pronounced for noradrenaline (+45%) than for adrenaline (+11%). Chronic physical exercise produced the expected degree of cardiac hypertrophy in untreated rats, but this adaptive cardiac hypertrophy was completely absent in the exercised guanethidine-treated rats. The results indicate, firstly that a good degree of chemical sympathectomy was obtained and that the persistence of a considerable urinary excretion of catecholamines in the guanethidine-treated rats was due to a compensatory increase in the secretory activity of the adrenal medulla. Secondly, it is suggested that the adaptive cardiac hypertrophy produced by chronic exercise is not caused by a direct effect of the increased work load on the cardiac muscle cell, but is instead mediated by release of a trophic factor from cardiac sympathetic nerves, probably noradrenaline itself but possibly a secretory protein.
+Superior cervical ganglia from 2-day-old and 3-week-old rats were maintained in vitro for up to 2 weeks in the presence of a range of concentrations of nerve growth factor up to 100 micrograms/ml. Nerve fibre length and density were measured and tyrosine hydroxylase activity of these cultures assayed after various times. Ganglia were also examined for catecholamines and neuronal numbers using fluorescence histochemistry and histology respectively. In cultures maintained without nerve growth factor, or in those containing low concentrations of nerve growth factor (3 ng/ml), tyrosine hydroxylase decreased to 5-10% of the initial levels by 14 days in vitro. The presence of the high concentration of 1 microgram/ml nerve growth factor in the culture medium or the addition of such a concentration during the culture period did not prevent an initial decrease in tyrosine hydroxylase but subsequently increased the enzyme activity. The maximal effect of nerve growth factor on nerve fibre density was at low concentrations whereas its maximal effect on neuronal survival, tyrosine hydroxylase activity or nerve fibre elongation was at high concentrations. After 2 days in culture, maximum neurite production occurred in cultures containing 10 ng/ml, while maximum nerve fibre elongation and tyrosine hydroxylase activity occurred in cultures containing 100 micrograms/ml nerve growth factor. We conclude that low concentrations of nerve growth factor, as occur in plasma, cause maximum axon formation while high concentrations of nerve growth factor, as occur in effector organs, induce maximum tyrosine hydroxylase activity and cell survival. The former process may be mediated via cell surface receptors and the latter via retrograde axonal transport of nerve growth factor to the cell body, following uptake by the terminal regions of the axons.
+A protein with adenosine triphosphatase activity was isolated from bovine adrenal medulla and subsequently purified by ammonium sulfate precipitation and agarose gel filtration using a discontinuous two-buffer system. Characterization of this protein by polyacrylamide gel electrophoresis in the presence of sodium dodecylsulfate, by assay of the activity of Ca2+, K(+)-EDTA and Mg2+ dependent adenosine triphosphatases by amino acid analysis and by electron microscopy has shown that the adrenal medullary myosin closely resembles those myosins isolated from muscle and other non-muscle cells. The possible roles of myosin in the adrenal medulla are discussed.
+Ultrastructural degeneration studies were carried out on the cat trochlear nucleus following lesion of the vestibulo-trochlear pathway in order to characterize the location and type of presynaptic endings involved in this pathway. Four types of boutons are found in the normal trochlear nucleus. Types I and II are large and demonstrate typical en passant profiles with small diameter synaptic vesicles (35 and 40 nm). These terminals are characterized by the absence of neurofilaments in the Type II endings. Types III and IV are smaller boutons, located more axondendritically, and contain larger diameter synaptic vesicles (45 nm). Type V terminals contain large, granulated vesicles and occur only rarely. Following the interruption of the ascending projection from the ipsilateral superior and medial vestibular nuclei by parasagittal medullary lesions, degeneration of Type II boutons was commonly encountered in the ipsilateral trochlear nucleus. Predominantly Type III degeneration was found in the contralateral trochlear nucleus. Electrical stimulation of the vestibular nerve showed that these lesions resulted in (1) a complete loss of inhibition in the ipsilateral trochlear nucleus and (2) a significant (75-90%) reduction in the contralateral excitatory pathway to the trochlear nucleus. Midline sagittal lesions in the floor of the fourth ventricle interrupting the decussating fiber projection from the bilateral medial vestibular nuclei resulted in selective degeneration of only Type III boutons in both trochlear nuclei. We conclude that inhibitory vestibular neurons eminating from the superior vestibular nucleus terminate on trochlear motoneurons with Type II boutons and excitatory vestibular neurons from the contralateral medial vestibular nucleus end on trochlear motoneurons with Type III boutons.
+Responses to ventral root stimulation were studied in spinal cords in situ in unanesthetized frogs. Extracellular as well as intracellular recordings from motoneurons indicated that considerable depolarization of the dendrites occurred in the response to ventral root volley. Active components of this dendritic depolarization could also be observed. Extracellularly, negative field potentials were recorded both in the vicinity of motoneuron cell bodies and in areas occupied mostly by motoneuron dendrites. The refractory period of the negativity recorded at the vicinity of dendrites was longer than in the vicinity of somata. Changes in antidromic excitability were studied by the double volley technique. Augmentation of the field potential to a test volley was observed during the period of dendritic depolarization, followed by a longer-lasting period of depression of the test response. It is concluded that an action potential in frog motoneurons induces depolarization of the dendrites. The depolarized dendrites can generate local action potentials and can produce negative field potentials remotely from the somatic pool. The response of dendrites to stimulation of the ventral root has particular importance in the recurrent facilitation of the frog motoneurons.
+The freeze-fractured membrane of the central myelin sheath has three classes of particulate components: (i) Particles inherent to the compact myelin lamellae. These are distributed at random and cleave predominantly with the P (protoplasmic) face. (ii) Particles which comprise the intramyelinic tight junctions. These are arranged in strands and are located at the inner and outer mesaxon, the paranodal loops, the cytoplasmic incisures, and occasionally within the compact regions of the myelin sheath. (iii) Particles localized exclusively at the portion of the paranodal loop membrane involved in the septate-like junction with the axolemma. These are regularly spaced and are organized in parallel rows. In the central myelin sheaths of bullfrogs fixed by perfusion with aldehydes and cryoprotected in 30% glycerol, the randomly distributed particles differ in size and shape from those of the axolemma. They possess a reasonably well defined bimodal distribution with respect to particle shape--most can be described either as globules or as ellipsoids. The globular particles range in diameter from 60 to 150 A. The ellipsoidal particles are 100-200 A long and 15-50 A wide. The total number of particles per square micron on the P face is approximately 1500. About half of these are of the globular type and half of the ellipsoidal type. In poorly fixed specimens, loss of interlamellar adhesion and loss of randomly distributed particles seem to coincide. Evidence is presented against the hypothesis that the tight junctions between compact myelin lamellae represent the radial component of the myelin. The possible relation between the types of particulate components seen in freeze-fracture and the classes of protein isolated from central myelin fractions is briefly discussed.
+Local cerebral blood flow using a hydrogen clearance technique and a histofluorescent modification of the glyoxylic acid method (SPG method) were used in rats to study the influence of brain stem centers on intracerebral flood flow. Recording of local cerebral blood flow following stimulation of the locus coeruleus but not of the ventrocaudal nucleus of the lateral lemniscus showed a significant blood flow decrease in anterior brain regions where innervation of ascending adrenergic pathways are known to occur. Adrenergic innervation using the SPG method (sucrose-potassium phosphate-glyoxylic acid) histofluorescence could not be verified in the rat but was evident in the dog and rhesus monkey brain sections examined. The results provide additional evidence suggestive of a role for the locus coeruleus in modulating or controlling intracerebral blood flow in these animals. In addition, histofluorescent visualization of intracerebral vessels in dog and monkey show an association between adrenergic varicosities and arterioles in bilaterally ganglion-ectomized animals. This adrenergic-vascular association was not seen in the rat. The results provide further evidence that central adrenergic innervation from the brain stem may control intracerebral blood flow independent of sympathetic influence.
+A rapid and sensitive modification of the glyoxylic acid method for the histofluorescent visualization of catecholamines and serotonin in mammalian brain, and other tissues, from cryostat sections is described. The procedure uses a phosphate-sucrose buffer solution combined with 1% glyoxylic acid. Tissues are reacted for 3 s at room temperature. Catecholaminergic cell bodies, pre-terminal, and terminal varicosities, well-localized and brightly fluorescent, are seen throughout cortical and subcortical structures. Serotoninergic cells show a weak fluorescence in rat and mouse brain but a strong fluorescence in dog and monkey brain.
+The role of brain catecholamines in the regulation of growth hormone secretion was investigated in pentobarbital-anesthetized dogs by using drugs which modify the function of adrenergic neurons and receptors. Intravenous administration of L-dopa produced a prompt, statistically significant increase in plasma growth hormone concentration. This response was not significantly reduced by blockade of peripheral dopa decarboxylase activity with carbidopa. Clonidine, an alpha-agonist which penetrates the brain, increased plasma growth hormone secretion. Norepinephrine, epinephrine, dopamine and isoproterenol, catecholamines which do not penetrate the blood-brain barrier, failed to affect plasma growth hormone concentration when administered intravenously. Apomorphine did not produce a statistically significant increase in plasma growth hormone concentration when administered directly into the the third ventricle, and pimozide failed to abolish the increase in plasma growth hormone produced by L-dopa. The increase in plasma growth hormone concentration produced by intravenous L-dopa and clonidine was prevented by administration of phentolamine or phenoxybenzamine directly into the third ventricle. The response to L-dopa was also abolished by intraventricular procaine. In dogs in which central beta-adrenergic blockade was produced by intraventricular L-propranolol, the growth hormone response to L-dopa was greater than it was in control dogs treated with intraventricular D-propranolol. The data indicate that in pentobarbital anesthetized dogs, the increase in growth hormone secretion produced by L-dopa is mediated by norepinephrine, rather than dopamine, that the site of action of the norepinephrine is central, above the median eminence and inside the 'blood-brain barrier', and that the norepinephrine acts via alpha-adrenergic receptors.
+
+Rabbits with either sham or septal lesions recieved differential classical conditioning training in which tones of different frequencies served as CSs and paraorbital shock served as the UCS. Eyeblink (EB), EMG, and heart rate (HR) CRs were concommitantly assessed. Free field activity was also studied in selected animals. Animals with septal lesions revealed an impaired EB discrimination which resulted from increased responding to the CS-. These animals showed HR CRs of greater magnitude than sham animals. The HR discrimination was, however, unimpaired by septal lesions. Differential EMG activity also occurred, but was unaffected by septal destruction. Septal lesions resulted in greater free-field activity associated with visual stimulation, but no differences were obtained between septal and sham animals in the dark. It is suggested that these results were due to an enhanced reactivity to environmental stimulation, possibly related to dysfunctions of the orienting reflex.
+The distribution and functions of certain neurotransmitter substances seem to correlate with clinical, anatomical and physiological evidence about the mediation of normal and abnormal behaviors in man, though much remains to be learned. The biosynthetic and metabolic pathways, receptors and reuptake mechanisms, and relationships to cyclic nucleotides for several major neurotransmitters are characterized, as well as the specific actions of many behavior-modifying drugs employed clinically. Experimental systems, including nerve cells in culture, permit tests of molecular actions inferred from biochemical and neurophysiological analyses in intact brain. This selective review emphasizes advances in neurochemistry which provide a context for current and future research on neurological and psychiatric disorders encountered in clinical practice.
+
+
+
+In three experiments, targets and masking stimuli were briefly flashce while observers visually tracked a moving dot. Masking stimuli were more effective when they appeared to be in the same place as the target but stimulated different parts of the retina than when they stimulated the same parts of the retina but appeared displaced because of of an intervening pursuit eye movement. Visual masking during pursuit eye movements thus depended on the apparent position of the stimuli, not their retinal positions as such, which is in disagreement with previous studies of visual masking during saccadic eye movements. The apparent conflict can be explained in terms of the functional significance of visual masking in tracking and saccardic movements: Retinal position masking after saccadic eye movements may erase previous images, and apparent position masking during pursuit eye movements may make moving targets more visible.
+Non-ionic detergents stimulated particulate guanylate cyclase activity in cerebral cortex of rat 8- to 12-fold while stimulation of soluble enzyme was 1.3- to 2.5-fold. Among various detergents, Lubrol PX was the most effective one. The subcellular distribution of guanylate cyclase activity was examined with or without 0.5% Lubrol PX. Without Lubrol PX two-thirds of the enzyme activity was detected in the soluble fraction. In the presence of Lubrol PX, however, two-thirds of guanylate cyclase activity was recovered in the crude mitochondrial fraction. Further fractionation revealed that most of the particulate guanylate cyclase activity was associated with synaptosomes. The sedimentation characteristic of the particulate guanylate cyclase activity was very close to those of choline acetyltransferase and acetylcholine esterase activities, two synaptosomal enzymes. When the crude mitochondrial fraction was subfractionated after osmotic shock, most of guanylate cyclase activity as assayed in the absence of Lubrol PX was released into the soluble fraction while the rest of the enzyme activity was tightly bound to synaptic membrane fractions. The total guanylate cyclase activity recovered in the synaptosomal soluble fraction was 6 to 7 times higher than that of the starting material. The specific enzyme activity reached more than 1000 pmol per min per mg protein, which was 35-fold higher than that of the starting material. The membrane bound guanylate cyclase activity was markedly stimulated by Lubrol PX. Guanylate cyclase activity in the synaptosomal soluble fraction, in contrast, was suppressed by the addition of Lubrol PX. The observation that most of guanylate cyclase activity was detected in synaptosomes, some of which was tightly bound to the synaptic membrane fraction upon hypoosmotic treatment, is consistent with the concept that cyclic GMP is involved in neural transmission.
+
+From a factor analysis of data from a learning experiment evidence is presented which appears to support the Blomfield-Marr thesis that in the learning of motor actions the cerebellum operates by the turning off of incorrect movements rather than by the turning on of correct ones. The factor model employed is that due to Godfrey Thomson which gives a neurostatistical explanation of the origin of mental factors.
+
+
+A new procedure of serial motor nerve conduction velocity (NCV) measurements with the use of &quot;superimposed response waves&quot; technique (or double stimulus technique) was performed on 29 normal subjects. Six peripheral nerves were tested once a week for four to six weeks. A total of 760 NCV measurements were thus obtained to try to assess the magnitude of error in serial NCV testings. With the double stimulus technique employed, a significant reduction in variations of serial NCV measurements was found. The overall standard deviation of four to six consecutive NCV measurements in the 34 subjects was 1.3 meters per second with a coefficient of variation of 2.4%. These findings obtained with the double stimulus technique have proven to be approximately three times more accurate than results obtained by investigators who studied nerve conduction velocity measurement variation with single stimulus standard NCV testing techniques.
+
+
+
+
+
+
+For an analysis of discharge pattern of single neuronal units in the cortical projection area of the vagus nerve during successive episodes of hypoxia their action potentials were recorded extracellularly. Changes in the discharge pattern were assessed by means of histograms of interimpulse intervals. It was found that the reaction of neurons to repeated exposure to hypoxia includes: a) increased frequency of discharges, b) decreased activity, or c) habituation, i.e. reduction in the degree of neuronal activity changes during successive exposures to hypoxia.
+An apparatus is described for rigid suspension of the spinal columns of mammals ranging in size from large dogs to small rabbits. This apparatus is unique in that the animal is suspended on its side, allowing free access to the entire spinal column for spinal cord studies and free access to the thoracic and abdominal regions for heart, lung, and visceral studies that may require simultaneous surgical procedures in both ventral and dorsal regions.
+
+The main role in determination of the pharmacologic effects of the imipramine groups antidepressants is given to their influence on neurotransmitters metabolism in synapses, the activity of enzymic systems regulating the transport of ions, as well as on the system of cyclic AMP metabolism. Interaction of tricyclic antidepressants with membrane and, as the result, distrubance in reuptake of transmitters (epinephrine and 5-hydroxytryptamine) in neurons is supposed to be one of the mechanisms of synaptic transmission regulation. The possible role in inhibition of biological amines deamination, in particular of phenylethylamine, in antidepressive effect of tricyclic antidepressants is discussed. It is supposed that the thymoanaleptic effects of the imipramine group antidepressants are due to activation of central serotoninergic processes, and their psychoanaleptic effect due to activation of the adrenergic system. Inhibition of the Na+, K+-ATPase activity quilizing effect of tricyclic antidepressants.
+
+
+Enkephalins are peptides which have pharmacological properties similar to those of morphine. Guinea pigs were immunized with a leucine-enkephalin/thyroglobulin conjugate. Immunofluorescence histochemistry with antiserum revealed a widely distributed system of axons and their terminals in the nervous system of the rat. Prominent networks of enkephalin-like immunoreactivity were found in some brainstem nuclei and in portions of the limbic forebrain. The myenteric plexus in the gastrointestinal tract also contained fluorescent fibers. The distribution of the positive immunofluorescence parallels the occurrence of enkephalin as revealed by biochemical techniques. Some areas known to have a high opiate receptor density were also shown to contain striking networks of enkephalin-like immunoreactivity. Such findings provide morphological support for the hypothesis that enkephalins are contained in nerve terminals close to opiate receptors.
+Botulinum toxin type A, when applied to the extensor digitorum longus muscle of rats, reduces spontaneous and evoked transmitter release to a few per cent of the normal level. The toxin, however, fails to affect the morphological redifferentiation of the postsynaptic part of the neuromuscular junction following muscle degeneration-regeneration induced by a selective myotoxic agent, bupivacaine. This indicates that neither transmitter release nor resulting muscle activity are necessary for the differentiation of the sole plate.
+Polyacrylamide gel electrophoresis of a soluble extract of purified large dense-cored vesicles (noradrenergic vesicles) from ox splenic nerve revealed 13 proteins, 7 of which had mobilities close to those of seven of the soluble proteins in adrenal chromaffin granules. Two of these proteins had the same mobilities as dopamine beta-hydroxylase and chromogranin A, respectively. The relative staining intensities of the latter two proteins were different: in noradrenergic vesicles, there was more dopamine beta-hydroxylase than chromogranin A; whereas in chromaffin granules, chromogranin A was the major protein. Gel electrophoresis of the water-insoluble proteins of noradrenergic vesicles, dissolved in sodium dodecylsulphate, revealed 5 proteins, 5 of which had mobilities close to those of 5 proteins present in the membranes of chromaffin granules. Three of these proteins had mobilities similar to those of dopamine beta-hydroxylase, chromogranin A and chromomembrin B, respectively. One of the proteins was probably serum albumin, which was also present as a contaminant in the soluble extract of noradrenergic vesicles. These findings are consistent with earlier studies in which dopamine beta-hydroxylase, chromogranin A and chromomembrin B have been identified as constituents of noradrenergic vesicles by enzymatic or immunochemical assay methods. They also indicate further qualitative similarities between the noradrenergic vesicle and the chromaffin granule, in that a total of 7 soluble and 5 insoluble proteins might be common to both particles. However, gel electrophoresis also confirms that quantitative differences exist between the relative proportions of the soluble proteins and shows that dopamine beta-hydroxylase is the major soluble protein of the noradrenergic vesicles isolated from splenic nerve trunks.
+To study the ultrastructural characteristics of the sympathetic nerve terminals of human omental veins, and of their relationship to the innervated smooth muscle cells, biopsy specimens were taken during abdominal surgery, rapidly fixed in glutaraldehyde/osmium and stained with uranylacetate. The results indicate that the veins have an extensive noradrenergic innervation, penetrating into the tunica media. The distance between nerve terminals partly or wholly free from enveloping Schwann cells, to the surface of smooth muscle cells ranged from 30 to 500 nm. Large dense core vesicles were prominent in both preterminals and terminal regions, while small dense core vesicles occurred mainly in terminals. Large dense core vesicles in close contact with the axolemma were occasionally observed, indicating involvement in secretion by exocytosis.
+The electrically induced release of labelled alpha-aminoisobutyrate, L-alpha-alanine, beta-alanine, glycine, histidine, serine, glutamate, aspartate and taurine, from superfused thin slices of the rat neocortex, held on quick-transfer electrodes was studied. In no instance did the release of these substances resemble that of (3H)-labelled noradrenaline, acetylcholine or 5-hydroxytryptamine, which can be released by 0.5-3 V stimuli and whose release shows an absolute dependency on calcium ions. Small amounts of alpha-aminoisobutyrate, beta-alanine, serine, glutamate and aspartate were released with 4 V stimuli, but the release was statistically significant for the first two substances only. Following incubation with (3H)-histidine, substantial labelling of homocarnosine was found, but no electrically induced release of this dipeptide could be detected. With (14C)-taurine, however, small but significant release was found with sinewave stimuli of 1.5 V or higher. Such release was significantly increased in the absence of calcium ions. Biphasic pulses of frequencies ranging between 10 and 100 Hz. (1 V, 3 ms duration) did not evoke the release of (14C)-taurine, although this type of stimulation readily induced the release of (3H)-noradrenaline studied simultaneously. Differences in threshold, calcium dependency and shape of the taurine efflux peak, relative to that seen with (3H)-noradrenaline and other transmitters, suggest that taurine release occurs by mechanisms unrelated to those that mediate transmitter secretion. The release of all the above amino acids can readily be elicited, however, if stimuli that are too intense, prolonged or damaging are utilized. The occurrence of these artifacts in the present and in previous work is discussed.
+A method is described for perfusing the rat head which results in perfusion of the brain, its covering and the bony skull only. Dye and latex injection studies showed that there was no perfusion of extracranial tissue and thus it was not necessary to remove the lower jaw and facial tissues as described by previous authors. Perfusion with fluorescein demonstrated that the whole brain was perfused. Light microscopy after two hours of perfusion revealed no deterioration in brain-structure. Electron microscopy showed a small increase in the extracellular space and the perivascular space with good preservation of subcellular organelles. Glucose and acetoacetate removal were very similar to those reported for the adult rat in vivo as measured by arterio-venous differences. The concentrations of 5-hydroxytryptamine, dopamine and noradrenaline are maintained at values close to those in vivo during a 2-hr perfusion with a basal medium and the preparation will maintain linear rates of 5-hydroxytryptamine synthesis for 2 h when the medium contains L-tryptophan and tranylcypromine, at rates similar to those measured in vivo. The rate of uptake of L-tryptophan into the brain is similar to that reported after L-tryptophan loading in vivo. The histological and metabolic properties of the preparation are close to those observed in vivo. The method could provide a way in which monoamine metabolism in particular could be studied using an experimental model closer in its properties to the in vivo situation than tissue preparations such as slices or homogenates.
+In a first series of experiments, recordings were obtained from cat abducens and trochlear motorneurons and from axons of secondary vestibular neurons terminating in these motor nuclei, and the effects of cerebellar nodulus stimulation on utricular- and canal-evoked responses in these neurons were studied. Ultricular activation of vestibular axons recorded in the ipsilateral VIth and contralateral IVth nuclei was probably monosynaptically inhibited by nodular stimulation provided conditioning-test intervals were in the range between 0-10 ms and the test stimuli were close to threshold intensities. Of the vestibular axons activated by stimulation of the semicircular canal nerves only those evoked by the horizontal canal stimulation and recorded in the ipsilateral VIth nucleus were weakly inhibited. When the vestibular stimuli were strong enough to produce clear field potentials in the motor nuclei and/or postsynaptic potentials in motorneurons, nodular stimulation had practically no effect on their amplitudes. It is concluded that inhibition of vestibuloocular transmission is weak as compared to floccular inhibition studied previously. In a second series of experiments, recordings were obtained from vestibular neurons which were activated antidromically and/or transsynaptically by stimulation of the contralateral fastigial nucleus, and the effects of ipsilateral nodular stimulation on these responses were studied. It was found that nodular stimulation inhibited both antidromic as well as transsynaptic fastigial activations of vestibular neurons. Most of these vestibular neurons were located in the descending vestibular nucleus and received polysynaptic vestibular and spinal inputs. It is concluded that in addition to its weak inhibitory effect on vestibuloocular transmission the nodulus exerts a powerful inhibition on vestibular neurons transmitting vestibular and spinal inputs to cerebellar nuclei and/or cortex. It is suggested that the nodulus controls cerebellar projecting vestibular neurons which carry vestibular and spinal information to the cerebellum. The vestibular, proprioceptive and visual information which is present in the nodulus may aid the role of the nodulus in controlling body posture.
+By use of an immunofluorescence histochemical technique with a cross-species reactive antiserum to porcine neurophysin-II the precise localization of neurophysin in the pituitary gland and the hypothalamic area of the brain of the sheep has been determined. Neurophysin was confined to neurosecretory pathways originating from the supraoptic and paraventricular hypothalamic nuclei. The major pathway terminates in the neurohypophysis but in addition a second neurophysin-containing pathway proceeds in the external infundibular zone of the median eminence-pituitary stalk and is associated with the presence of vasopressin. In sheep affected with the hereditary degenerative disease known as natural scrapie, this supraoptico-paraventriculo-infundibular pathway is preserved and hypertrophied, while the major pathway to the posterior lobe of the pituitary degenerates. The supraoptic and paraventricular nuclei in the sheep comprise at least two distinct but morphologically similar neuronal populations affected differently by the natural scrapie genome, one undergoing dissolution by middle-age and one surviving and becoming hyperactive. This premature ageing is probably associated with a primary biochemical lesion affecting the rate of the axonal flow of neurosecretory vesicles and of their discharge at synaptic terminals. Possible metabolic and circulatory bases for such an anomaly are considered. The presence of neurophysin in the rostral and caudal adenohypophysis supports the view that vasopressin is acting directly as a trophic-hormone releasing factor, possibly for the quick release of adrenocorticotropic hormone and of growth hormone. The relation of neurophysin-rich aggregations in the neurohypophysis to Herring bodies and the turnover of neurosecretory material are discussed.
+
+The concept that each nerve cell makes and releases only one nerve transmitter (widely known as Dale's Principle) has been re-examined. Experiments suggesting that some nerve cells store and release more than one transmitter have been reviewed. Developmental and evolutionary factors are considered. Conceptual and experimental difficulties in investigating this problem are discussed. It is suggested that the term 'transmitter' should be applied to any substance that is synthesised and stored in nerve cells, is released during nerve activity and whose interaction with specific receptors on the postsynaptic membrane leads to changes in postsynaptic activity. Expressed in this way, it seems likely that while many nerves do have only one transmitter, others in some species, during development or during hormone-dependent cycles, employ multiple transmitters.
+
+Possible biological oriented research in geronto-psychiatry is discussed in relation to dementias. The discrimination between the various forms as well as against normal aging is dealt with. Reference is given to results of studies correlating clinical, neuropathological and neurophysiological date.
+
+
+A digital instrument is described which displays on a three-digit, seven-segment display the average firing frequency of a neuron. Averaging is done over essentially consecutive timing intervals of 1, 2, 5, 10, 20, or 50 s. Provision is made for overflow indication and for manual resetting. The design is simple, economical in the number of integrated circuits used, and may be adapted for measuring the average frequency of occurrence of events other than neuronal firing.
+An implantable electrode assembly consisting of collagen and metallic electrodes was constructed to measure simultaneously neural signals from the intact nerve and bioelectrical noises in awake animals. Mechanical artifacts, due to bodily movement, were negligibly small. The impedance of the collagen electrodes, measured in awake cats 6-7 days after implantation surgery, ranged from 39.8-11.5 komega at a frequency range of 20-5 kHz. Aortic nerve activity and renal nerve activity, measured in awake conditions using the collagen electrode, showed grouped activity synchronous with the cardiac cycle. Results indicate that most of the remal nerve activity was from postganglionic sympathetic fibers and was inhibited by the baroceptor reflex in the same cardiac cycle.
+
+Usually Heinrich Romberg is credited with having established tabes dorsalis as a clinicopathological entity in the 1840s. But Romberg's teacher, Ernst Horn (1774 to 1848), had inspired five different students to write their doctoral dissertations on the same subject. These five theses, published between 1817 and 1827, as well as M. Steinthal's most comprehensive later description, were triggered by Horn's observation of the lower spinal cord atrophy which he found in one of his tabetic patients at autopsy. The dissertations are analyzed together with the prior literature reflected in them as it deals with the spinal cord. Discussions of the putative influence of the spinal cord on the vagaries of male sexual function, and vice versa, began with &quot;consumption of the backbone&quot;, referred to in the Hippocratic corpus. &quot;Venery&quot;--if not veneral disease as we understand it--was thought throughout the centuries to be the prime cause of tabes. One may presume that the rising concern with public health and with national aims--a kind of &quot;moral rearmament&quot;--caused the subject to be so vigorously pursued by members of the young medical generation in early 19th-century Germany.

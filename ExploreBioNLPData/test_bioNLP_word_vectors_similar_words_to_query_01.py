@@ -35,19 +35,6 @@ if __name__ == '__main__':
 '''
 Behavior:
 
-Similar words:
-______________
-(u'amygdale', 0.8930469751358032)
-(u'mPFC', 0.8828564882278442)
-(u'amygdalar', 0.8799511790275574)
-(u'thalamus', 0.8594943881034851)
-(u'prefrontal', 0.8579798340797424)
-(u'amygdalae', 0.8505597114562988)
-(u'vmPFC', 0.8492401838302612)
-(u'PFC', 0.8437764048576355)
-(u'dmPFC', 0.8386062979698181)
-(u'rACC', 0.8354059457778931)
-
 prompt> tDCS
 
 Similar words:

@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-input_string = "intravascular electrode"
-timerange = range(1990,2014)
+input_string = "hemodynamics"
+timerange = range(1990,2013)
 counts = [0.0 for i in timerange]
 input_word_list = input_string.split()
 n = len(input_word_list)
@@ -25,11 +25,11 @@ def count_ngram(year):
 	return [year,0.0]
 	
 def main():
-	print "Searching for ngrams..."
+	print "Searching for %i-gram %s..." % (n, input_string)
 
 	# simple parallelization over the year-specific input files
 	from multiprocessing import Pool
-	pool = Pool(processes = 6)
+	pool = Pool(processes = 8)
 	c = pool.map(count_ngram, timerange)
 	print c
 	sorted_c = sorted(c, key = lambda tup: tup[0])

@@ -1,3 +1,5 @@
+'''Note: Adam has mucked with this to get it to work on the bio.NLPlab smoothed n-gram model.'''
+
 # Copyright (c) 2006 Carnegie Mellon University
 #
 # You may copy and modify this freely under the same terms as
@@ -15,6 +17,7 @@ __version__ = "$Revision: 7505 $"
 import numpy
 import gzip
 import re
+import time
 
 LOG10TOLOG = numpy.log(10)
 
@@ -61,6 +64,8 @@ class ArpaLM(object):
                 n, c = map(int, m.groups())
                 self.ng_counts[n] = c
 
+	print self.ng_counts
+
         # Word and N-Gram to ID mapping
         self.ngmap = []
         # Create probability/backoff arrays
@@ -75,6 +80,8 @@ class ArpaLM(object):
         spam = fh.readline().rstrip()
         if spam != "\\1-grams:":
             raise Exception, "1-grams marker not found"
+
+	print "Reading the words..."
         # ID to word mapping
         self.widmap = []
         wordid = 0
@@ -82,47 +89,53 @@ class ArpaLM(object):
             spam = fh.readline().rstrip()
             if spam == "":
                 break
-            p,w,b = spam.split()
+	    q = spam.split()
+            if len(q) == 3:
+            	p,w,b = q
+	    else:
+                p,w = q
+                b = 0.0 
             self.ngmap[0][w] = wordid
             self.widmap.append(w)
             self.ngrams[0][wordid,:] = (float(p) * LOG10TOLOG,
                                         float(b) * LOG10TOLOG)
             wordid = wordid + 1
+
+	print "There were %i words" % wordid
         
         # Read N-grams
-        r = re.compile(r"\\(\d+)-grams:")
         ngramid = 0
         # Successor list map
         self.succmap = {}
+        n = 1
         while True:
             spam = fh.readline().rstrip()
             if spam == "":
                 continue
             if spam == "\\end\\":
                 break
-            m = r.match(spam)
-            if m != None:
-                n = int(m.group(1))
+
+	    if spam in ["\\2-grams", "\\3-grams"]:
+                n = int(spam[1])
+		print "starting... " + str(n) + " ...grams"
                 ngramid = 0
             else:
                 spam = spam.split()
-                p = float(spam[0]) * LOG10TOLOG
-                if n == self.n:
-                    ng = tuple(spam[1:])
-                    b = 0.0
-                else:
-                    ng = tuple(spam[1:-1])
-                    b = float(spam[-1]) * LOG10TOLOG
-                # N-Gram info
-                self.ngrams[n-1][ngramid,:] = p, b
-                self.ngmap[n-1][ng] = ngramid
+		if len(spam) == n + 2:
+			if spam[-1] != "</s>":
+                	    p = float(spam[0]) * LOG10TOLOG
+                	    ng = tuple(spam[1:-1])
+                	    b = spam[-1]
 
-                # Successor list for N-1-Gram
-                mgram = tuple(ng[:-1])
-                if mgram not in self.succmap:
-                    self.succmap[mgram] = []
-                self.succmap[mgram].append(ng[-1])
-                ngramid = ngramid + 1
+                	    # N-Gram info
+                	    self.ngrams[n-1][ngramid,:] = p, b
+                	    self.ngmap[n-1][ng] = ngramid
+
+                	    mgram = tuple(ng[:-1])
+                	    if mgram not in self.succmap:
+                    	        self.succmap[mgram] = []
+                	    self.succmap[mgram].append(ng[-1])
+                	    ngramid = ngramid + 1
 
     def save(self, path):
         """

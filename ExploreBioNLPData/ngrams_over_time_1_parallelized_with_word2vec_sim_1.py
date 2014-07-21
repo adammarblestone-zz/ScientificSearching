@@ -7,8 +7,23 @@ import numpy as np
 import gensim
 import numpy as np
 import dill
-import pathos.multiprocessing as mp
-'''http://stackoverflow.com/questions/22418816/python-pickling-and-multiprocessing'''
+
+from multiprocessing import Process, Pipe
+from itertools import izip
+
+def spawn(f):
+    def fun(pipe,x):
+        pipe.send(f(x))
+        pipe.close()
+    return fun
+
+def parmap(f,X):
+    pipe=[Pipe() for x in X]
+    proc=[Process(target=spawn(f),args=(c,x)) for x,(p,c) in izip(X,pipe)]
+    [p.start() for p in proc]
+    [p.join() for p in proc]
+    return [p.recv() for (p,c) in pipe]
+
 
 class Word2VecPlusNgram:
 
@@ -26,7 +41,7 @@ class Word2VecPlusNgram:
 		self.binary = binary
 
 	def count_ngram(self, year):
-		print "\tSearching in year %i" % year
+		# print "\tSearching in year %i" % year
 
 		filename_base = self.ngrams_dir + str(self.n) + "-grams-"
 		filename = filename_base + str(year) + ".tsv.gz"
@@ -36,10 +51,11 @@ class Word2VecPlusNgram:
     		for line in lines:
 			elements = line.rstrip().split("\t")
 			if elements[0] == self.input_string:
-				print elements
+				# print "\t\tFinished searching in year %i" % year
 				return [year, int(elements[2])]
 
 		# otherwise
+		# print "\t\tFinished searching in year %i" % year
 		return [year,0.0]
 
 	def set_input_string(self, input_str):
@@ -47,9 +63,9 @@ class Word2VecPlusNgram:
 		self.input_word_list = self.input_string.split()
 		self.n = len(self.input_word_list)
 
-		print "Set word to %s" % self.input_string
+		print "Set input string to %s" % self.input_string
 
-		self.sims = [m[0] for m in self.model.most_similar(positive=self.input_string.split())] 
+		self.sims = [m[0] for m in self.model.most_similar(positive=self.input_string.split(), topn = 15)] 
 		# you could also put negative here, in addition to positive, to get difference vectors: see gensim word2vec docs
 		
 		print "Most similar words:"
@@ -75,13 +91,23 @@ class Word2VecPlusNgram:
 			print "Word2Vec model %s already loaded." % self.word2vec_file
 
 	def search_for_ngrams(self):
-		print "Searching for %i-gram %s..." % (self.n, self.input_string)
+
+		original_input_string = self.input_string
+		
+		if self.n == 1:
+			original_query = self.input_string
+		else:
+			# if a long phrase... we could also do a direct n-gram search with n>1 but this is for efficiency
+			original_query = self.model.most_similar(positive=self.sims)[0][0]
+			print "Closest single word to the query (%s) is (%s)" % (original_input_string, original_query)
+			self.input_string = original_query
+			self.input_word_list = self.input_string.split()
+			self.n = len(self.input_word_list)
+
+		print "Searching for 1-gram %s..." % original_query
 
 		# simple parallelization over the year-specific input files
-		pool = mp.ProcessingPool(8)
-		print "\tCreated ProcessingPool to search through the files..."
-		c = pool.map(self.count_ngram, self.timerange)
-		print c
+		c = parmap(self.count_ngram, self.timerange)
 
 		# getting the years back in the right order for plotting
 		sorted_c = sorted(c, key = lambda tup: tup[0])
@@ -91,11 +117,11 @@ class Word2VecPlusNgram:
 		plots = []
 
 		fig = plt.figure()
-		p = plt.plot(self.timerange, self.counts)
+		p, = plt.plot(self.timerange, self.counts, linewidth = 2.0)
 		plt.xlabel("Year")
 		plt.ylabel("Count")
+		plt.title("N-Grams for Words Similar to the Query String: %s" % original_input_string)
 		plots.append(p)
-		plt.show()
 
 		# searching for and plotting the 1-grams corresponding to similar words
 		for w in self.sims:
@@ -104,25 +130,22 @@ class Word2VecPlusNgram:
 			self.n = len(self.input_word_list)
 
 			print "Searching for %i-gram %s..." % (self.n, self.input_string)
-			c = pool.map(self.count_ngram, self.timerange)
-			print c
+			c = parmap(self.count_ngram, self.timerange)
 			sorted_c = sorted(c, key = lambda tup: tup[0])
 			self.counts = [k[1] for k in sorted_c]
-			p = plt.plot(self.timerange, self.counts)
+			p, = plt.plot(self.timerange, self.counts, linewidth = 2.0)
 			plots.append(p)
 
 
-		plt.legend(plots, [self.input_string] + self.sims)
+		plt.legend(plots, [original_query] + self.sims, loc = 'upper left')
 		plt.show()
 def main():
 	
 	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/","../../PubMed/BioNLP/wikipedia-pubmed-and-PMC-w2v.bin", range(1990,2013), binary = True)
-	w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/",\
-		"../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1",\
-		 range(1990,2013),\
-	 	binary = False)
+	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1", range(1990,2013), binary = False)
+	w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) # use lowercase inputs with this model
 	w.load_word2vec_model()
-	w.set_input_string("fMRI")
+	w.query_input_from_prompt()
 	w.search_for_ngrams()
 
 	

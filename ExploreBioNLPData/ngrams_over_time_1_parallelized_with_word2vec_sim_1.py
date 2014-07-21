@@ -133,7 +133,7 @@ class Word2VecPlusNgram:
 			c = parmap(self.count_ngram, self.timerange)
 			sorted_c = sorted(c, key = lambda tup: tup[0])
 			self.counts = [k[1] for k in sorted_c]
-			p, = plt.plot(self.timerange, self.counts, linewidth = 2.0)
+			p, = plt.plot(self.timerange, self.counts, linewidth = 2.0, color = np.random.rand(3,1))
 			plots.append(p)
 
 
@@ -141,9 +141,9 @@ class Word2VecPlusNgram:
 		plt.show()
 def main():
 	
-	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/","../../PubMed/BioNLP/wikipedia-pubmed-and-PMC-w2v.bin", range(1990,2013), binary = True)
+	w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/","../../PubMed/BioNLP/wikipedia-pubmed-and-PMC-w2v.bin", range(1990,2013), binary = True)
 	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1", range(1990,2013), binary = False)
-	w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) # use lowercase inputs with this model
+	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) # use lowercase inputs with this model
 	w.load_word2vec_model()
 	w.query_input_from_prompt()
 	w.search_for_ngrams()

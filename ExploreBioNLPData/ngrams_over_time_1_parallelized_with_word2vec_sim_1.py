@@ -145,8 +145,9 @@ def main():
 	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1", range(1990,2013), binary = False)
 	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) # use lowercase inputs with this model
 	w.load_word2vec_model()
-	w.query_input_from_prompt()
-	w.search_for_ngrams()
+	while True:
+		w.query_input_from_prompt()
+		w.search_for_ngrams()
 
 	
 if __name__ == '__main__':

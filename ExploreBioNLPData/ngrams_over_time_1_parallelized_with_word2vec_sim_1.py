@@ -143,7 +143,7 @@ def main():
 	
 	w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/","../../PubMed/BioNLP/wikipedia-pubmed-and-PMC-w2v.bin", range(1990,2013), binary = True)
 	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1", range(1990,2013), binary = False)
-	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) # use lowercase inputs with this model
+	# w = Word2VecPlusNgram("../../PubMed/BioNLP/ngrams/pubmed/", "../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1_cleaned", range(1990,2013), binary = False) 
 	w.load_word2vec_model()
 	while True:
 		w.query_input_from_prompt()

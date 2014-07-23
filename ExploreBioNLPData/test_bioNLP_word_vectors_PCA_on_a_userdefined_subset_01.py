@@ -7,8 +7,6 @@ import nltk
 import logging
 
 from matplotlib.mlab import PCA as PCA
-from mpl_toolkits.mplot3d import Axes3D
-
 
 #logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -19,6 +17,7 @@ def main():
     # 4 GB input file, uses about 20 GB of memory when loaded
     '''Uses the model from: http://bio.nlplab.org/'''
     model = gensim.models.Word2Vec.load_word2vec_format("../../PubMed/BioNLP/wikipedia-pubmed-and-PMC-w2v.bin", binary = True)
+    #model = gensim.models.Word2Vec.load("../../PubMed/derived_from_neuroscience_abstracts/word2vec_model_1")
     model.init_sims(replace=True)
     vocab = model.index2word
 
@@ -30,12 +29,19 @@ def main():
     	for word in seed_word_list:
 		print word
         
+
+	# choose how many words to find to allow numrows > numcols in PCA
+	vector_length = len(model[vocab[0]])
+	top_vecs = int(1 + float(vector_length) / float(len([s for s in seed_word_list if s in vocab])))
+	if top_vecs < 15:
+		top_vecs = 15
+
         print "Finding a bunch of similar words..."
     	derived_word_list = []
         for s in seed_word_list:
 		if s in vocab:
 			print "\tSearching for similarities for %s" % s
-			l = [m[0] for m in model.most_similar(positive = [s])]
+			l = [m[0] for m in model.most_similar(positive = [s], topn = top_vecs)]
 			derived_word_list += l
 
 	if len(derived_word_list) == 0:
@@ -52,15 +58,18 @@ def main():
     	print "Running PCA..."
     	pca_results = PCA(data_matrix)
     	projected_vectors = []
+	word_short_list = []
     	for word in seed_word_list:
 		if word in vocab:
 			f = model[word]
 			projected_vectors.append(pca_results.project(f))
+			word_short_list.append(word)
+
+	
     
     	print "Plotting PCA results..."
     	fig = plt.figure()
-    	ax = fig.add_subplot(111, projection = '3d')
-    	ax.set_title("Principal Components of Word Vectors")
+    	plt.title("Principal Components of Word Vectors")
 
 	plots = []
     
@@ -75,10 +84,10 @@ def main():
         	if i % len(colorList) == 0:
             	    m = marker.next()
 
-        	p = ax.plot([projected_vectors[i][0]], [projected_vectors[i][1]], [projected_vectors[i][2]], marker = m, markersize = 21, color = col, label = seed_word_list[i], linestyle = "none")
-		plot.append(p)
+        	p, = plt.plot([projected_vectors[i][0]], [projected_vectors[i][1]], marker = m, markersize = 21, color = col, linestyle = "none")
+		plots.append(p)
         
-        ax.legend(plots, seed_word_list, loc = "upper left")
+        plt.legend(plots, word_short_list, loc = "upper left", numpoints = 1)
         plt.show()
             
 if __name__ == '__main__':

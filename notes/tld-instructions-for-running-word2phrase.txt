@@ -1,0 +1,76 @@
+Download the two data sources from PubMed described here:
+http://bio.nlplab.org/#source-data
+
+Use the nxml2txt script  on github  to preprocess the data:
+https://github.com/spyysalo/nxml2txt
+
+Download and compile - the provided make file should suffice -
+word2vec from here: https://code.google.com/p/word2vec/
+
+Run the following in order to produce the vanilla and phrase vector models:
+
+# vanilla :
+time ./word2vec -train NEURO -output NEURO-VECTOR -cbow 0 -size 300
+-window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12
+-binary 1
+                                       # phrase :
+time ./word2phrase -train NEURO -output NEURO-PHRASE -threshold 500 -debug 2
+# should take less that an hour on a multi-core machine with 16GB or more
+time ./word2vec -train NEURO-PHRASE -output NEURO-PHRASE-VECTOR -cbow
+0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3
+-threads 12 -binary 1
+# should take around 2 hours on a multi-core machine with 16GB or more
+
+# notes:
+# 1. Doesn't really matter regarding SkipGram versus CBoW. SkipGram is fine.
+# 2. Preprocessing can help. If you don't care about punctuation or
+case you can strip them.  As for stop words, the -sample flag in
+word2vec will downsample frequent terms, so you don't need to
+explicitly remove stop words. Doesn't hurt of course if you really
+want to remove them. If you think bigrams and trigram are really
+important, you can use word2phrase to chunk them.
+# 3. Doesn't really matter. HS is fine.
+# 4. Notes on parameters:
+# size - 200 is fine. Reasonable range is 100-1000, 500 is often the best.
+# alpha - 0.025, I think this is the default in the source, it's a good value.
+# window - 5 is fine, I've also used 10 and 20 on wikipedia.
+# min_count - 5 is fine, I've also used 10.
+# threads - 1 is slow. Use 10 or 12.
+# if you want to start a build, log off and return later to use your
+model, then use bash and nohup, e.g., build a 500-D embedding space:
+
+# nohup time ./word2vec -train NEURO -output NEURO-VECTOR-500 -cbow 0
+-size 500 -window 10 min-count 10 -negative 0 -hs 1 -sample 1e-3
+-threads 12 -binary 1 > NOHUP.out 2> NOHUP.err < /dev/ &
+
+# nohup time ./word2vec -train NEURO-PHRASE -output
+NEURO-PHRASE-VECTOR-500 -cbow 0 -size 500 -window 10 min-count 10
+-negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1 > NOHUP.out 2>
+NOHUP.err < /dev/ &
+
+# Use Gensim to load and experiment with vectors, e.g.,
+
+# neuro_lang_model = gensim.models.Word2Vec.load_word2vec_format(
+neuro_code_base + 'models/NEURO-VECTOR', binary=True )
+
+------------------------------------------
+
+Notes from Adam's first attempt:
+
+On Ubuntu, to compile word2vec, using the 8.2 GB of PMC shards arising from Tom's script:
+
+cd ~/Desktop
+sudo apt-get install subversion
+svn checkout http://word2vec.googlecode.com/svn/trunk/
+cd trunk
+make
+
+cd ../PubMed/shards/
+cat * > ../concatenated-PMC-shards.txt
+cd ../../trunk
+
+time ./word2vec -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/Desktop/NEURO-VECTOR -cbow 0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1
+time ./word2phrase -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/Desktop/NEURO-PHRASE -threshold 500 -debug 2
+time ./word2vec -train ~/Desktop/NEURO-PHRASE -output ~/Desktop/NEURO-PHRASE-VECTOR -cbow 0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1
+
+

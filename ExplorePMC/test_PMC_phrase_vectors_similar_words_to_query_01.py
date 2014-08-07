@@ -17,6 +17,13 @@ def main():
     model.init_sims(replace=True)
     vocab = model.index2word
 
+    import readline
+    readline.parse_and_bind("tab: complete")
+    def complete(text,state):
+        results = [x for x in vocab if x.startswith(text)] + [None]
+        return results[state]
+
+    readline.set_completer(complete)
 
     while True:
         line = raw_input('\nprompt> ')

@@ -13,16 +13,17 @@ import logging
 def main():
     print "\nLoading Word2Vec model...\n"
     # 4 GB input file, uses about 20 GB of memory when loaded
-    model = gensim.models.Word2Vec.load_word2vec_format("../../PubMed/ ######## ", binary = True)
+    model = gensim.models.Word2Vec.load_word2vec_format("../../PubMed/NEURO-PHRASE-VECTOR", binary = True)
     model.init_sims(replace=True)
     vocab = model.index2word
+
 
     while True:
         line = raw_input('\nprompt> ')
         if line in vocab:
             print "\nSimilar words:"
             print "______________"
-            sims = model.most_similar(positive=[line.split()[0]]) # this needs to be changed to allow phrases
+            sims = model.most_similar(positive=[line]) # this needs to be changed to allow phrases
             for p in sims:
                 print p
         else:

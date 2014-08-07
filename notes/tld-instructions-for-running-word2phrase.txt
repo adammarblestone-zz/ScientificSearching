@@ -73,4 +73,31 @@ time ./word2vec -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/De
 time ./word2phrase -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/Desktop/NEURO-PHRASE -threshold 500 -debug 2
 time ./word2vec -train ~/Desktop/NEURO-PHRASE -output ~/Desktop/NEURO-PHRASE-VECTOR -cbow 0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1
 
+which gave the results
+
+r@Puget-126251:~/Desktop/trunk$ time ./word2vec -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/Desktop/NEURO-VECTOR -cbow 0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1
+Starting training using file /home/user/Desktop/PubMed/concatenated-PMC-shards.txt
+Vocab size: 1884503
+Words in train file: 1283094994
+Alpha: 0.000002  Progress: 99.99%  Words/thread/sec: 11.75k  
+real	247m29.512s
+user	1823m42.896s
+sys	4m28.745s
+user@Puget-126251:~/Desktop/trunk$ time ./word2phrase -train ~/Desktop/PubMed/concatenated-PMC-shards.txt -output ~/Desktop/NEURO-PHRASE -threshold 500 -debug 2
+Starting training using file /home/user/Desktop/PubMed/concatenated-PMC-shards.txt
+Words processed: 1244500K     Vocab size: 136672K  
+Vocab size (unigrams + bigrams): 76236629
+Words in train file: 1244511348
+Words written: 1244500K
+real	47m0.507s
+user	45m38.300s
+sys	1m18.670s
+user@Puget-126251:~/Desktop/trunk$ time ./word2vec -train ~/Desktop/NEURO-PHRASE -output ~/Desktop/NEURO-PHRASE-VECTOR -cbow 0 -size 300 -window 10 min-count 5 -negative 0 -hs 1 -sample 1e-3 -threads 12 -binary 1
+Starting training using file /home/user/Desktop/NEURO-PHRASE
+Vocab size: 2686389
+Words in train file: 1227632953
+Alpha: 0.000002  Progress: 100.00%  Words/thread/sec: 12.80k  
+real	219m11.572s
+user	1603m49.795s
+sys	4m5.375s
 

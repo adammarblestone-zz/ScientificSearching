@@ -14,7 +14,7 @@ def main():
         f.close()
     
     outfile = open("../../named_entities.txt", 'w')
-    for n in sorted(named_entities):
+    for n in sorted(list(set(named_entities))):
         print str(n)
         outfile.write(n + "\n")
     outfile.close()

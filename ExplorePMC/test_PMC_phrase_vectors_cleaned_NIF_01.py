@@ -20,15 +20,19 @@ def main():
     print "\nLoading NIF phrases...\n"
     common = open("../ExploreNIF/named_entities.txt").readlines()
 
+    outfile = open("../../nif-sims-1.txt", 'w')
+
     for c in common:
         line = c.replace(" ", "_").lower()[:-1]
         if line in vocab:
-	    print "\n" + line
-            print "Similar:"
-            print "______________"
+            print line
+	    outfile.write("\n" + line)
+            print "-------
+            outfile.write("\n______________")
             sims = model.most_similar(positive=[line]) # this needs to be changed to allow phrases
             for p in sims:
-                print p[0]
+                outfile.write("\n" + p[0])
+                print p
             
 if __name__ == '__main__':
     main()

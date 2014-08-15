@@ -27,7 +27,7 @@ def main():
         if line in vocab:
             print line
 	    outfile.write("\n" + line)
-            print "-------
+            print "-------"
             outfile.write("\n______________")
             sims = model.most_similar(positive=[line]) # this needs to be changed to allow phrases
             for p in sims:

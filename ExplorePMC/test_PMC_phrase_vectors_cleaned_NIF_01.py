@@ -22,13 +22,15 @@ def main():
 
     outfile = open("../../nif-sims-1.txt", 'w')
 
+    print "Outputting similarities..."
     for c in common:
         line = c.replace(" ", "_").lower()[:-1]
         if line in vocab:
+            print "\n"
             print line
-	    outfile.write("\n" + line)
+	    outfile.write("\n\n" + line)
             print "-------"
-            outfile.write("\n______________")
+            outfile.write("\n______________\n")
             sims = model.most_similar(positive=[line]) # this needs to be changed to allow phrases
             for p in sims:
                 outfile.write("\n" + p[0])
